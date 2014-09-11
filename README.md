@@ -1,4 +1,4 @@
 platformicons
 =============
 
-A platform and web framework web icon set.
+A platform and web framework icon font.
