@@ -28,6 +28,9 @@
 	font-size: 64px;
 }
 
+.platformicon-generic:before {
+	content: "\e60a";
+}
 .platformicon-js:before {
 	content: "\e600";
 }

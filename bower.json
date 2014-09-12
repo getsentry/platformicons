@@ -1,7 +1,7 @@
 {
   "name": "platformicons",
   "description": "A platform and framework icon font",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "license": "SIL OFL 1.1, MIT",
   "authors": [
     "Chris Jennings <chris@getsentry.com>"
