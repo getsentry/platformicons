@@ -28,6 +28,10 @@
 	font-size: 64px;
 }
 
+.platformicon:before {
+	content: "\e60a";
+}
+
 .platformicon-apple:before {
 	content: "\e60d";
 }
