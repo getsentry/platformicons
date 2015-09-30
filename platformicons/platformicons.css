@@ -32,58 +32,45 @@
 	content: "\e60a";
 }
 
-.platformicon-apple:before {
-	content: "\e60d";
-}
-
-.platformicon-csharp:before {
+.platformicon-app-engine:before {
 	content: "\e60b";
 }
-
-.platformicon-dotnet:before {
+.platformicon-bottle:before {
 	content: "\e60c";
 }
-
+.platformicon-laravel:before {
+	content: "\e60d";
+}
 .platformicon-generic:before {
 	content: "\e60a";
 }
-
 .platformicon-js:before {
 	content: "\e600";
 }
-
 .platformicon-php:before {
 	content: "\e601";
 }
-
 .platformicon-python:before {
 	content: "\e602";
 }
-
 .platformicon-rails:before {
 	content: "\e603";
 }
-
 .platformicon-ruby:before {
 	content: "\e604";
 }
-
 .platformicon-django:before {
 	content: "\e605";
 }
-
 .platformicon-go:before {
 	content: "\e606";
 }
-
 .platformicon-ios:before {
 	content: "\e607";
 }
-
 .platformicon-java:before {
 	content: "\e608";
 }
-
 .platformicon-node-js:before {
 	content: "\e609";
 }
