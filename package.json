@@ -1,6 +1,6 @@
 {
   "name": "platformicons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Web platform and framework icon set.",
   "main": "README.md",
   "repository": {
@@ -17,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/getsentry/platformicons/issues"
   },
-  "homepage": "https://github.com/getsentry/platformicons",
-  "bugs": {
-    "url": "https://github.com/getsentry/platformicons/issues"
-  }
+  "homepage": "https://github.com/getsentry/platformicons"
 }
