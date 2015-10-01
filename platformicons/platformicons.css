@@ -32,7 +32,13 @@
 	content: "\e60a";
 }
 
+.platformicon-flask:before {
+	content: "\e610";
+}
 .platformicon-apple:before {
+	content: "\e60e";
+}
+.platformicon-objc:before {
 	content: "\e60e";
 }
 .platformicon-csharp:before {
@@ -51,6 +57,9 @@
 	content: "\e60a";
 }
 .platformicon-js:before {
+	content: "\e600";
+}
+.platformicon-javascript:before {
 	content: "\e600";
 }
 .platformicon-php:before {
@@ -78,5 +87,8 @@
 	content: "\e608";
 }
 .platformicon-node-js:before {
+	content: "\e609";
+}
+.platformicon-node:before {
 	content: "\e609";
 }
