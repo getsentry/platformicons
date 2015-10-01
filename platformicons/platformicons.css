@@ -35,6 +35,9 @@
 .platformicon-flask:before {
 	content: "\e610";
 }
+.platformicon-python-flask:before {
+	content: "\e610";
+}
 .platformicon-apple:before {
 	content: "\e60e";
 }
@@ -47,10 +50,19 @@
 .platformicon-app-engine:before {
 	content: "\e60b";
 }
+.platformicon-java-appengine:before {
+	content: "\e60b";
+}
 .platformicon-bottle:before {
 	content: "\e60c";
 }
+.platformicon-python-bottle:before {
+	content: "\e60c";
+}
 .platformicon-laravel:before {
+	content: "\e60d";
+}
+.platformicon-php-laravel:before {
 	content: "\e60d";
 }
 .platformicon-generic:before {
@@ -71,10 +83,16 @@
 .platformicon-rails:before {
 	content: "\e603";
 }
+.platformicon-ruby-rails:before {
+	content: "\e603";
+}
 .platformicon-ruby:before {
 	content: "\e604";
 }
 .platformicon-django:before {
+	content: "\e605";
+}
+.platformicon-python-django:before {
 	content: "\e605";
 }
 .platformicon-go:before {
@@ -92,3 +110,4 @@
 .platformicon-node:before {
 	content: "\e609";
 }
+
