@@ -32,6 +32,18 @@
 	content: "\e60a";
 }
 
+.platformicon-react:before {
+	content: "\e801";
+}
+.platformicon-javascript-react:before {
+	content: "\e801";
+}
+.platformicon-ember:before {
+	content: "\e800";
+}
+.platformicon-javascript-ember:before {
+	content: "\e800";
+}
 .platformicon-flask:before {
 	content: "\e610";
 }
