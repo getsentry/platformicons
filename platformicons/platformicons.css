@@ -32,6 +32,15 @@
 	content: "\e60a";
 }
 
+.platformicon-perl:before {
+	content: "\e901";
+}
+.platformicon-angularjs:before {
+	content: "\e900";
+}
+.platformicon-javascript-angularjs:before {
+	content: "\e900";
+}
 .platformicon-react:before {
 	content: "\e801";
 }
