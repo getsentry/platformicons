@@ -68,7 +68,13 @@
 .platformicon-objc:before {
 	content: "\e60e";
 }
+.platformicon-objective-c:before {
+	content: "\e60e";
+}
 .platformicon-csharp:before {
+	content: "\e60f";
+}
+.platformicon-c-sharp:before {
 	content: "\e60f";
 }
 .platformicon-app-engine:before {
