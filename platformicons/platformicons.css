@@ -35,6 +35,9 @@
 .platformicon-perl:before {
 	content: "\e901";
 }
+.platformicon-angular:before {
+	content: "\e900";
+}
 .platformicon-angularjs:before {
 	content: "\e900";
 }
