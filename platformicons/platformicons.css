@@ -32,6 +32,9 @@
 	content: "\e60a";
 }
 
+.platformicon-dotnet:before {
+	content: "\e902";
+}
 .platformicon-perl:before {
 	content: "\e901";
 }
