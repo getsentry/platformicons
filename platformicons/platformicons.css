@@ -77,6 +77,9 @@
 .platformicon-objective-c:before {
     content: "\e60e";
 }
+.platformicon-cocoa:before {
+    content: "\e60e";
+}
 .platformicon-swift:before {
     content: "\e60e";
 }
