@@ -32,123 +32,125 @@
 	content: "\e60a";
 }
 
+.platformicon-elixir:before {
+  content: "\e903";
+}
 .platformicon-dotnet:before {
-    content: "\e902";
+  content: "\e902";
 }
 .platformicon-perl:before {
-    content: "\e901";
+  content: "\e901";
 }
 .platformicon-angular:before {
-    content: "\e900";
+  content: "\e900";
 }
 .platformicon-angularjs:before {
-    content: "\e900";
+  content: "\e900";
 }
 .platformicon-javascript-angularjs:before {
-    content: "\e900";
+  content: "\e900";
 }
 .platformicon-javascript-angular:before {
-    content: "\e900";
+  content: "\e900";
 }
 .platformicon-react:before {
-    content: "\e801";
+  content: "\e801";
 }
 .platformicon-javascript-react:before {
-    content: "\e801";
+  content: "\e801";
 }
 .platformicon-ember:before {
-    content: "\e800";
+  content: "\e800";
 }
 .platformicon-javascript-ember:before {
-    content: "\e800";
+  content: "\e800";
 }
 .platformicon-flask:before {
-    content: "\e610";
+  content: "\e610";
 }
 .platformicon-python-flask:before {
-    content: "\e610";
+  content: "\e610";
 }
 .platformicon-apple:before {
-    content: "\e60e";
+  content: "\e60e";
 }
 .platformicon-objc:before {
-    content: "\e60e";
+  content: "\e60e";
 }
 .platformicon-objective-c:before {
-    content: "\e60e";
-}
-.platformicon-cocoa:before {
-    content: "\e60e";
+  content: "\e60e";
 }
 .platformicon-swift:before {
-    content: "\e60e";
+  content: "\e60e";
 }
 .platformicon-csharp:before {
-    content: "\e60f";
+  content: "\e60f";
 }
 .platformicon-c-sharp:before {
-    content: "\e60f";
+  content: "\e60f";
 }
 .platformicon-app-engine:before {
-    content: "\e60b";
+  content: "\e60b";
 }
 .platformicon-java-appengine:before {
-    content: "\e60b";
+  content: "\e60b";
 }
 .platformicon-bottle:before {
-    content: "\e60c";
+  content: "\e60c";
 }
 .platformicon-python-bottle:before {
-    content: "\e60c";
+  content: "\e60c";
 }
 .platformicon-laravel:before {
-    content: "\e60d";
+  content: "\e60d";
 }
 .platformicon-php-laravel:before {
-    content: "\e60d";
+  content: "\e60d";
 }
 .platformicon-generic:before {
-    content: "\e60a";
+  content: "\e60a";
 }
 .platformicon-js:before {
-    content: "\e600";
+  content: "\e600";
 }
 .platformicon-javascript:before {
-    content: "\e600";
+  content: "\e600";
 }
 .platformicon-php:before {
-    content: "\e601";
+  content: "\e601";
 }
 .platformicon-python:before {
-    content: "\e602";
+  content: "\e602";
 }
 .platformicon-rails:before {
-    content: "\e603";
+  content: "\e603";
 }
 .platformicon-ruby-rails:before {
-    content: "\e603";
+  content: "\e603";
 }
 .platformicon-ruby:before {
-    content: "\e604";
+  content: "\e604";
 }
 .platformicon-django:before {
-    content: "\e605";
+  content: "\e605";
 }
 .platformicon-python-django:before {
-    content: "\e605";
+  content: "\e605";
 }
 .platformicon-go:before {
-    content: "\e606";
+  content: "\e606";
 }
 .platformicon-ios:before {
-    content: "\e607";
+  content: "\e607";
 }
 .platformicon-java:before {
-    content: "\e608";
+  content: "\e608";
 }
 .platformicon-node-js:before {
-    content: "\e609";
+  content: "\e609";
 }
 .platformicon-node:before {
-    content: "\e609";
+  content: "\e609";
 }
+
+
