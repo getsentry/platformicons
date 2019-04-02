@@ -1,7 +1,7 @@
 Platformicons
 =============
 
-A set of platwork and framework icons from the people behind https://sentry.io.
+A set of platform and framework icons from the people behind https://sentry.io.
 
 ### Notice:
 
