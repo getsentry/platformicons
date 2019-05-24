@@ -1,11 +1,11 @@
 {
-  "name": "platformicons",
-  "version": "2.0.3",
+  "name": "@liara/platformicons",
+  "version": "2.1.0",
   "description": "Web platform and framework icon set.",
   "main": "README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/getsentry/platformicons.git"
+    "url": "https://github.com/liara-ir/platformicons.git"
   },
   "keywords": [
     "web",
@@ -13,9 +13,12 @@
     "icons"
   ],
   "author": "Chris Jennings <chriskjennings@gmail.com>",
+  "contributors": [
+    "Mohammad Hossein Ebadollahi <mhemrg120@gmail.com>"
+  ],
   "license": "SIL OFL 1.1",
   "bugs": {
-    "url": "https://github.com/getsentry/platformicons/issues"
+    "url": "https://github.com/liara-ir/platformicons/issues"
   },
-  "homepage": "https://github.com/getsentry/platformicons"
+  "homepage": "https://github.com/liara-ir/platformicons"
 }
