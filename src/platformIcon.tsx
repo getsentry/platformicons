@@ -108,6 +108,7 @@ type Props = React.HTMLAttributes<HTMLDivElement | HTMLImageElement> & {
   format?: "sm" | "lg";
   radius?: number | null;
   withLanguageIcon?: boolean;
+  languageIconStyles?: React.CSSProperties;
 };
 
 const PlatformIcon = ({
@@ -116,6 +117,7 @@ const PlatformIcon = ({
   format = "sm",
   radius = 3,
   withLanguageIcon,
+  languageIconStyles = {},
   style = {},
   ...otherProps
 }: Props) => {
@@ -145,6 +147,7 @@ const PlatformIcon = ({
             height: "30%",
             width: "30%",
             borderRadius: "2px",
+            ...languageIconStyles,
           }}
         />
       </div>
