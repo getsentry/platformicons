@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "@emotion/styled";
 
 const PLATFORM_TO_ICON = {
   android: "android",
@@ -117,6 +116,7 @@ const PlatformIcon = ({
   format = "sm",
   radius = 3,
   withLanguageIcon,
+  style = {},
   ...otherProps
 }: Props) => {
   const icon = getIcon(platform);
@@ -129,39 +129,37 @@ const PlatformIcon = ({
 
   if (withLanguageIcon && languageIcon !== icon && languageIcon !== "default") {
     return (
-      <IconContainer {...otherProps}>
-        <Icon src={iconPath} width={size} height={size} radius={radius} />
-        <LanguageIcon src={languageIconPath} />
-      </IconContainer>
+      <div {...otherProps} style={{ position: "relative", ...style }}>
+        <img
+          src={iconPath}
+          width={size}
+          height={size}
+          style={{ borderRadius: `${radius}px` }}
+        />
+        <img
+          src={languageIconPath}
+          style={{
+            position: "absolute",
+            bottom: "-1px",
+            right: "-1px",
+            height: "30%",
+            width: "30%",
+            borderRadius: "2px",
+          }}
+        />
+      </div>
     );
   }
 
   return (
-    <Icon
+    <img
       src={iconPath}
       width={size}
       height={size}
-      radius={radius}
       {...otherProps}
+      style={{ borderRadius: `${radius}px`, ...style }}
     />
   );
 };
-
-const IconContainer = styled("div")`
-  position: relative;
-`;
-
-const Icon = styled("img")<{ radius?: Props["radius"] }>`
-  border-radius: ${(p) => p.radius}px;
-`;
-
-const LanguageIcon = styled(Icon)`
-  position: absolute;
-  bottom: -1px;
-  right: -1px;
-  height: 30%;
-  width: 30%;
-  border-radius: 2px;
-`;
 
 export default PlatformIcon;
