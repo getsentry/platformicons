@@ -74,7 +74,7 @@ const PLATFORM_TO_ICON = {
   swift: "swift",
   // Don't add new platforms down here!
   // Please add them where they belong alphabetically
-};
+} as const;
 
 function normalizePlatform(platform: string): string {
   // sentry uses format python-django, but docs uses python.django
@@ -103,7 +103,7 @@ function getLanguageIcon(platform: string): Platform {
   return getIcon(language);
 }
 
-type Platform = keyof typeof PLATFORM_TO_ICON;
+type Platform = typeof PLATFORM_TO_ICON[keyof typeof PLATFORM_TO_ICON];
 
 type Props = React.HTMLAttributes<HTMLDivElement | HTMLImageElement> & {
   platform: string;
