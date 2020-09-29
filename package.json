@@ -3,6 +3,7 @@
   "version": "3.1.1",
   "description": "Web platform and framework icon set.",
   "main": "build/index.js",
+  "source": "src/index.tsx",
   "repository": {
     "type": "git",
     "url": "https://github.com/getsentry/platformicons.git"
@@ -19,7 +20,8 @@
   },
   "homepage": "https://github.com/getsentry/platformicons",
   "scripts": {
-    "build": "rm -rf ./build && tsc",
+    "build": "microbundle --jsx React.createElement",
+    "dev": "microbundle watch --jsx React.createElement",
     "prepare": "yarn build"
   },
   "peerDependencies": {
@@ -27,6 +29,7 @@
     "react-dom": "^16 || ^17"
   },
   "devDependencies": {
+    "microbundle": "^0.12.4",
     "react": "^16 || ^17",
     "react-dom": "^16 || ^17",
     "typescript": "^4.0.2"
