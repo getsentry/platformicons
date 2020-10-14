@@ -24,6 +24,8 @@ const PLATFORM_TO_ICON = {
   "java-log4j2": "java",
   "java-logback": "logback",
   "java-logging": "java",
+  "java-spring": "spring",
+  "java-spring-boot": "springboot",
   javascript: "javascript",
   "javascript-angular": "angularjs",
   "javascript-angularjs": "angularjs",
