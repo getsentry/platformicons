@@ -34,6 +34,7 @@ const PLATFORM_TO_ICON = {
   "javascript-cordova": "cordova",
   "javascript-electron": "electron",
   "javascript-ember": "ember",
+  "javascript-nextjs": "nextjs",
   "javascript-react": "react",
   "javascript-vue": "vue",
   native: "nativec",
