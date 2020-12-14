@@ -75,7 +75,9 @@ const PLATFORM_TO_ICON = {
   ruby: "ruby",
   "ruby-rack": "ruby",
   "ruby-rails": "rails",
+  "ruby-sinatra": "sinatra",
   rust: "rust",
+  scala: "scala",
   swift: "swift",
   // Don't add new platforms down here!
   // Please add them where they belong alphabetically
