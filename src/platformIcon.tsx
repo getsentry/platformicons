@@ -3,10 +3,12 @@ import React from "react";
 const PLATFORM_TO_ICON = {
   android: "android",
   apple: "apple",
+  blazor: "blazor",
   cocoa: "apple",
   "cocoa-objc": "apple",
   "cocoa-swift": "swift",
   cordova: "cordova",
+  cryengine: "cryengine",
   csharp: "csharp",
   "csharp-aspnetcore": "dotnet",
   dart: "dart",
@@ -17,6 +19,7 @@ const PLATFORM_TO_ICON = {
   elixir: "elixir",
   flutter: "flutter",
   go: "go",
+  godot: "godot",
   java: "java",
   "java-android": "android",
   "java-appengine": "app-engine",
@@ -71,6 +74,7 @@ const PLATFORM_TO_ICON = {
   "python-serverless": "serverless",
   "python-tornado": "tornado",
   "python-tryton": "tryton",
+  qt: "qt",
   "react-native": "react",
   ruby: "ruby",
   "ruby-rack": "ruby",
@@ -78,7 +82,10 @@ const PLATFORM_TO_ICON = {
   "ruby-sinatra": "sinatra",
   rust: "rust",
   scala: "scala",
+  stride3d: "stride3d",
   swift: "swift",
+  uno: "uno",
+  xamarin: "xamarin",
   // Don't add new platforms down here!
   // Please add them where they belong alphabetically
 } as const;
