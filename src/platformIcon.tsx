@@ -52,7 +52,6 @@ const PLATFORM_TO_ICON = {
   "node-express": "express",
   "node-gcpfunctions": "gcp",
   "node-koa": "koa",
-  "objective-c": "apple",
   perl: "perl",
   php: "php",
   "php-laravel": "laravel",
