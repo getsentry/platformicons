@@ -1,1 +1,2 @@
-export { default } from "./platformIcon";
+export { default as PlatformIcon } from "./platformIcon";
+export { preloadIcons } from "./preload";

@@ -1,6 +1,6 @@
 import React from "react";
 
-const PLATFORM_TO_ICON = {
+export const PLATFORM_TO_ICON = {
   android: "android",
   apple: "apple",
   cocoa: "apple",
