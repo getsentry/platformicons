@@ -168,6 +168,7 @@ const PlatformIcon = ({
       <div {...otherProps} style={{ position: "relative", ...style }}>
         <img
           src={iconPath}
+          className="platformicon"
           width={size}
           height={size}
           style={{ borderRadius: `${radius}px` }}
@@ -191,6 +192,7 @@ const PlatformIcon = ({
   return (
     <img
       src={iconPath}
+      className="platformicon"
       width={size}
       height={size}
       {...otherProps}
