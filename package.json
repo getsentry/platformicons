@@ -1,6 +1,6 @@
 {
   "name": "platformicons",
-  "version": "3.5.2",
+  "version": "4.0.0",
   "description": "Web platform and framework icon set.",
   "main": "build/index.js",
   "source": "src/index.tsx",
@@ -35,8 +35,8 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
+    "@types/node": "*",
     "@types/react": "^16 || ^17",
-    "@types/react-dom": "^16 || ^17",
-    "@types/node": "*"
+    "@types/react-dom": "^16 || ^17"
   }
 }
