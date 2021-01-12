@@ -3,6 +3,7 @@ import React from "react";
 export const PLATFORM_TO_ICON = {
   android: "android",
   apple: "apple",
+  clojure: "clojure",
   cocoa: "apple",
   "cocoa-objc": "apple",
   "cocoa-swift": "swift",
@@ -95,6 +96,7 @@ export const PLATFORM_TO_ICON = {
   scala: "scala",
   stride3d: "stride3d",
   swift: "swift",
+  unity: "unity",
   // Don't add new platforms down here!
   // Please add them where they belong alphabetically
 } as const;
