@@ -97,7 +97,9 @@ export const PLATFORM_TO_ICON = {
   stride3d: "stride3d",
   swift: "swift",
   unity: "unity",
-  unreal: "unreal",
+  // This will be deprecated in favor of 'unrealengine'
+  ue4: "unreal",
+  unrealengine: "unreal",
   // Don't add new platforms down here!
   // Please add them where they belong alphabetically
 } as const;
