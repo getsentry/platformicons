@@ -3,6 +3,7 @@ import React from "react";
 export const PLATFORM_TO_ICON = {
   android: "android",
   apple: "apple",
+  capacitor: "capacitor",
   clojure: "clojure",
   cocoa: "apple",
   "cocoa-objc": "apple",
