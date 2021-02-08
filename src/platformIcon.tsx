@@ -98,8 +98,8 @@ export const PLATFORM_TO_ICON = {
   swift: "swift",
   unity: "unity",
   // This will be deprecated in favor of 'unrealengine'
-  ue4: "ue4",
-  unrealengine: "unrealengine",
+  ue4: "unreal",
+  unrealengine: "unreal",
   // Don't add new platforms down here!
   // Please add them where they belong alphabetically
 } as const;
