@@ -55,6 +55,7 @@ export const PLATFORM_TO_ICON = {
   kotlin: "kotlin",
   "kotlin-android": "android",
   native: "nativec",
+  "native-qt": "qt",
   node: "nodejs",
   "node-awslambda": "aws",
   "node-azurefunctions": "azure",
