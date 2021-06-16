@@ -44,7 +44,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-angularjs": "angularjs",
   "javascript-backbone": "backbone",
   "javascript-browser": "javascript",
-  "javascript-capacitor", "capacitor",
+  "javascript-capacitor": "capacitor",
   "javascript-cordova": "cordova",
   "javascript-electron": "electron",
   "javascript-ember": "ember",
