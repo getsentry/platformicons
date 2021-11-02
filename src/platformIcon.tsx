@@ -16,6 +16,7 @@ export const PLATFORM_TO_ICON = {
   default: "default",
   dotnet: "dotnet",
   "dotnet-awslambda": "aws",
+  "dotnet-gcpfunctions": "gcp",
   "dotnet-aspnetcore": "dotnet",
   "dotnet-aspnet": "dotnet",
   "dotnet-csharp": "csharp",
