@@ -1,6 +1,6 @@
 {
   "name": "platformicons",
-  "version": "4.3.1",
+  "version": "4.3.2",
   "description": "Web platform and framework icon set.",
   "main": "build/index.js",
   "source": "src/index.tsx",
