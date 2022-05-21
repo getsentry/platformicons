@@ -160,12 +160,14 @@ const PlatformIcon = ({
   ...otherProps
 }: Props) => {
   const icon = getIcon(platform);
-  const iconPath = require(`../${
-    format === "lg" ? "svg_80x80" : "svg"
-  }/${icon}.svg`);
+  const iconPathRaw = require(
+    `../${format === 'lg' ? 'svg_80x80' : 'svg'}/${icon}.svg`
+  );
+  const iconPath = iconPathRaw?.default ?? iconPathRaw;
 
   const languageIcon = getLanguageIcon(platform);
-  const languageIconPath = require(`../svg/${languageIcon}.svg`);
+  const languageIconPathRaw = require(`../svg/${languageIcon}.svg`);
+  const languageIconPath = languageIconPathRaw?.default ?? languageIconPathRaw;
 
   if (withLanguageIcon && languageIcon !== icon && languageIcon !== "default") {
     return (
