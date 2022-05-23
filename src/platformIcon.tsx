@@ -163,10 +163,12 @@ const PlatformIcon = ({
   const iconPathRaw = require(
     `../${format === 'lg' ? 'svg_80x80' : 'svg'}/${icon}.svg`
   );
+  // It seems with webpack5 we need to access the default prop
   const iconPath = iconPathRaw?.default ?? iconPathRaw;
 
   const languageIcon = getLanguageIcon(platform);
   const languageIconPathRaw = require(`../svg/${languageIcon}.svg`);
+  // It seems with webpack5 we need to access the default prop
   const languageIconPath = languageIconPathRaw?.default ?? languageIconPathRaw;
 
   if (withLanguageIcon && languageIcon !== icon && languageIcon !== "default") {
