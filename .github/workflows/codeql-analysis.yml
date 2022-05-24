@@ -53,6 +53,16 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
+    - name: Compute dependency cache key
+        id: compute_lockfile_hash
+        run: echo "::set-output name=hash::${{ hashFiles('yarn.lock') }}"
+    - name: Check dependency cache
+      uses: actions/cache@v2
+      id: cache_dependencies
+      with:
+        path: ${{ env.CACHED_DEPENDENCY_PATHS }}
+        key: ${{ steps.compute_lockfile_hash.outputs.hash }}
+    
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
@@ -84,68 +94,12 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
 
-  job_install_deps:
-    name: Install Dependencies
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    steps:
-      - name: Check out current commit (${{ github.sha }})
-        uses: actions/checkout@v2
-      - name: Set up Node
-        uses: actions/setup-node@v1
-        # we use a hash of yarn.lock as our cache key, because if it hasn't changed, our dependencies haven't changed,
-        # so no need to reinstall them
-      - name: Compute dependency cache key
-        id: compute_lockfile_hash
-        run: echo "::set-output name=hash::${{ hashFiles('yarn.lock') }}"
-      - name: Check dependency cache
-        uses: actions/cache@v2
-        id: cache_dependencies
-        with:
-          path: ${{ env.CACHED_DEPENDENCY_PATHS }}
-          key: ${{ steps.compute_lockfile_hash.outputs.hash }}
-      - name: Install dependencies
-        if: steps.cache_dependencies.outputs.cache-hit == ''
-        run: yarn install
     outputs:
       dependency_cache_key: ${{ steps.compute_lockfile_hash.outputs.hash }}
 
-  job_build:
-    name: Build
-    needs: job_install_deps
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    steps:
-      - name: Check out current commit (${{ github.sha }})
-        uses: actions/checkout@v2
-      - name: Set up Node
-        uses: actions/setup-node@v1
-      - name: Check dependency cache
-        uses: actions/cache@v2
-        with:
-          path: ${{ env.CACHED_DEPENDENCY_PATHS }}
-          key: ${{ needs.job_install_deps.outputs.dependency_cache_key }}
-      - name: Check build cache
-        uses: actions/cache@v2
-        id: cache_built_packages
-        with:
-          path: ${{ env.CACHED_BUILD_PATHS }}
-          key: ${{ env.BUILD_CACHE_KEY }}
-      - name: Build packages
-        # Under normal circumstances, using the git SHA as a cache key, there shouldn't ever be a cache hit on the built
-        # packages, and so `yarn build` should always run. This `if` check is therefore only there for testing CI issues
-        # where the built packages are beside the point. In that case, you can change `BUILD_CACHE_KEY` (at the top of
-        # this file) to a constant and skip rebuilding all of the packages each time CI runs.
-        if: steps.cache_built_packages.outputs.cache-hit == ''
-        run: yarn build
-    outputs:
-      # this needs to be passed on, because the `needs` context only looks at direct ancestors (so steps which depend on
-      # `job_build` can't see `job_install_deps` and what it returned)
-      dependency_cache_key: ${{ needs.job_install_deps.outputs.dependency_cache_key }}
-
   job_artifacts:
     name: Upload Artifacts
-    needs: job_build
+    needs: analyze
     runs-on: ubuntu-latest
     steps:
       - name: Check out current commit (${{ github.sha }})
@@ -156,7 +110,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: ${{ env.CACHED_DEPENDENCY_PATHS }}
-          key: ${{ needs.job_build.outputs.dependency_cache_key }}
+          key: ${{ needs.analyze.outputs.dependency_cache_key }}
       - name: Check build cache
         uses: actions/cache@v2
         with:
