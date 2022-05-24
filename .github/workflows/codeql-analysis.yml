@@ -9,7 +9,7 @@
 # the `language` matrix defined below to confirm you have the correct set of
 # supported CodeQL languages.
 #
-name: "Build + CodeQL"
+name: "Build"
 
 env:
   CACHED_DEPENDENCY_PATHS: |
@@ -35,7 +35,7 @@ on:
 
 jobs:
   analyze:
-    name: Analyze
+    name: Analyze CodeQL
     runs-on: ubuntu-latest
     permissions:
       actions: read
@@ -169,4 +169,4 @@ jobs:
         with:
           name: ${{ github.sha }}
           path: |
-            ${{ github.workspace }}/*
+            ${{ github.workspace }}/**/*.tgz
