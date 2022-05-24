@@ -16,7 +16,7 @@ env:
     ${{ github.workspace }}/node_modules
 
   CACHED_BUILD_PATHS: |
-    ${{ github.workspace }}/dist
+    ${{ github.workspace }}/build
 
   BUILD_CACHE_KEY: ${{ github.sha }}
 
