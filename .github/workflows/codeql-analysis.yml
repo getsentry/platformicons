@@ -11,6 +11,15 @@
 #
 name: "Build + CodeQL"
 
+env:
+  CACHED_DEPENDENCY_PATHS: |
+    ${{ github.workspace }}/node_modules
+
+  CACHED_BUILD_PATHS: |
+    ${{ github.workspace }}/dist
+
+  BUILD_CACHE_KEY: ${{ github.sha }}
+
 on:
   push:
     branches: 
