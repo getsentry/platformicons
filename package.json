@@ -3,6 +3,7 @@
   "version": "5.0.2",
   "description": "Web platform and framework icon set.",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "source": "src/index.tsx",
   "repository": {
     "type": "git",
