@@ -54,6 +54,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-ionic": "ionic",
   "javascript-nextjs": "nextjs",
   "javascript-react": "react",
+  "javascript-remix": "remix",
   "javascript-vue": "vue",
   ionic: "ionic",
   kotlin: "kotlin",
