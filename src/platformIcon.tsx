@@ -106,6 +106,7 @@ export const PLATFORM_TO_ICON = {
   "rust-actix": "actix",
   scala: "scala",
   stride3d: "stride3d",
+  svelte: "svelte",
   swift: "swift",
   unity: "unity",
   // This will be deprecated in favor of 'unrealengine'
@@ -165,9 +166,9 @@ const PlatformIcon = ({
   ...otherProps
 }: Props) => {
   const icon = getIcon(platform);
-  const iconPathRaw = require(
-    `../${format === 'lg' ? 'svg_80x80' : 'svg'}/${icon}.svg`
-  );
+  const iconPathRaw = require(`../${
+    format === "lg" ? "svg_80x80" : "svg"
+  }/${icon}.svg`);
   const iconPath = iconPathRaw?.default ?? iconPathRaw;
 
   const languageIcon = getLanguageIcon(platform);
