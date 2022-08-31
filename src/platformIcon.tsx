@@ -58,6 +58,8 @@ export const PLATFORM_TO_ICON = {
   "javascript-remix": "remix",
   "javascript-svelte": "svelte",
   "javascript-vue": "vue",
+  "javascript-vue": "vue",
+  "javascript-wasm": "wasm",
   ionic: "ionic",
   kotlin: "kotlin",
   "kotlin-android": "android",
