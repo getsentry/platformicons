@@ -4,7 +4,7 @@ Platformicons
 A set of platform and framework icons from the people behind https://sentry.io.
 
 ## Publishing Changes 
-Platformicons uses GitHub Actions to publish changes. You don’t need to update the version in `package.json`, that’s done automatically.
+Platformicons uses GitHub Actions to publish changes. You don’t need to update the version in `package.json` since that’s done automatically.
 
 1. Make a change
 2. Merge with Master
