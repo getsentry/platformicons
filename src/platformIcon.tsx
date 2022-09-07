@@ -56,6 +56,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-nextjs": "nextjs",
   "javascript-react": "react",
   "javascript-remix": "remix",
+  "javascript-svelte": "svelte",
   "javascript-vue": "vue",
   ionic: "ionic",
   kotlin: "kotlin",
@@ -106,7 +107,6 @@ export const PLATFORM_TO_ICON = {
   "rust-actix": "actix",
   scala: "scala",
   stride3d: "stride3d",
-  svelte: "svelte",
   swift: "swift",
   unity: "unity",
   // This will be deprecated in favor of 'unrealengine'
