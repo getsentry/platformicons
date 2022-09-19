@@ -58,7 +58,6 @@ export const PLATFORM_TO_ICON = {
   "javascript-remix": "remix",
   "javascript-svelte": "svelte",
   "javascript-vue": "vue",
-  "javascript-vue": "vue",
   "javascript-wasm": "wasm",
   ionic: "ionic",
   kotlin: "kotlin",
@@ -115,6 +114,7 @@ export const PLATFORM_TO_ICON = {
   ue4: "unreal",
   unreal: "unreal",
   unrealengine: "unreal",
+  visualbasic: "visual-basic",
   // Don't add new platforms down here!
   // Please add them where they belong alphabetically
 } as const;
