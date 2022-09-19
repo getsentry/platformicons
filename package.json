@@ -39,5 +39,9 @@
     "@types/node": "*",
     "@types/react": "^16 || ^17",
     "@types/react-dom": "^16 || ^17"
+  },
+  "volta": {
+    "node": "16.13.1",
+    "yarn": "1.22.5"
   }
 }
