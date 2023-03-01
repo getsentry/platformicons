@@ -4,6 +4,11 @@
   "description": "Web Platform and Framework Logo Set",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "files": [
+    "build/",
+    "svg/",
+    "svg_80x80/"
+  ],
   "source": "src/index.tsx",
   "repository": {
     "type": "git",
