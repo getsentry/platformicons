@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "outDir": "build",
-    "module": "esnext",
+    "outDir": "build/cjs",
+    "module": "commonjs",
     "target": "es5",
     "lib": ["esnext", "dom"],
     "sourceMap": true,
@@ -14,7 +14,6 @@
     "noImplicitThis": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "allowSyntheticDefaultImports": true

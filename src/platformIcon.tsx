@@ -127,7 +127,7 @@ function normalizePlatform(platform: string): string {
 
 function getIcon(platform: string): Platform {
   const normalizedPlatform = normalizePlatform(platform);
-  const icon = PLATFORM_TO_ICON[normalizedPlatform];
+  const icon = PLATFORM_TO_ICON[normalizedPlatform as keyof typeof PLATFORM_TO_ICON];
 
   if (icon) {
     return icon;
@@ -148,16 +148,17 @@ function getLanguageIcon(platform: string): Platform {
 
 type Platform = typeof PLATFORM_TO_ICON[keyof typeof PLATFORM_TO_ICON];
 
-type Props = React.HTMLAttributes<HTMLDivElement | HTMLImageElement> & {
+interface PlatformIconProps
+  extends React.HTMLAttributes<HTMLDivElement | HTMLImageElement> {
   platform: string;
   size?: string | number;
   format?: "sm" | "lg";
   radius?: number | null;
   withLanguageIcon?: boolean;
   languageIconStyles?: React.CSSProperties;
-};
+}
 
-const PlatformIcon = ({
+export function PlatformIcon({
   platform,
   size = 20,
   format = "sm",
@@ -166,11 +167,9 @@ const PlatformIcon = ({
   languageIconStyles = {},
   style = {},
   ...otherProps
-}: Props) => {
+}: PlatformIconProps) {
   const icon = getIcon(platform);
-  const iconPathRaw = require(`../${
-    format === "lg" ? "svg_80x80" : "svg"
-  }/${icon}.svg`);
+  const iconPathRaw = require(`../${format === "lg" ? "svg_80x80" : "svg"}/${icon}.svg`);
   const iconPath = iconPathRaw?.default ?? iconPathRaw;
 
   const languageIcon = getLanguageIcon(platform);
@@ -179,12 +178,12 @@ const PlatformIcon = ({
 
   if (withLanguageIcon && languageIcon !== icon && languageIcon !== "default") {
     return (
-      <div {...otherProps} style={{ position: "relative", ...style }}>
+      <div {...otherProps} style={{position: "relative", ...style}}>
         <img
           src={iconPath}
           width={size}
           height={size}
-          style={{ borderRadius: `${radius}px` }}
+          style={{borderRadius: `${radius}px`}}
         />
         <img
           src={languageIconPath}
@@ -208,9 +207,7 @@ const PlatformIcon = ({
       width={size}
       height={size}
       {...otherProps}
-      style={{ borderRadius: `${radius}px`, ...style }}
+      style={{borderRadius: `${radius}px`, ...style}}
     />
   );
-};
-
-export default PlatformIcon;
+}

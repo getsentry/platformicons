@@ -2,12 +2,12 @@
   "name": "platformicons",
   "version": "5.5.0",
   "description": "Web Platform and Framework Logo Set",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "sideEffects": false,
+  "main": "build/cjs/index.js",
+  "module": "build/esm/index.js",
+  "types": "build/cjs/index.d.ts",
   "files": [
-    "build/",
-    "svg/",
-    "svg_80x80/"
+    "build/"
   ],
   "source": "src/index.tsx",
   "repository": {
@@ -26,18 +26,16 @@
   },
   "homepage": "https://github.com/getsentry/platformicons",
   "scripts": {
-    "build": "microbundle --jsx React.createElement",
-    "dev": "microbundle watch --jsx React.createElement",
+    "build": "tsc && tsc -p tsconfig.module.json && cp -r svg build/svg && cp -r svg_80x80 build/svg_80x80",
     "prepare": "yarn build"
   },
   "peerDependencies": {
     "react": "*"
   },
   "devDependencies": {
-    "microbundle": "^0.12.4",
     "react": "^17",
     "react-dom": "^17",
-    "typescript": "^4.0.2"
+    "typescript": "^5.0.3"
   },
   "dependencies": {
     "@types/node": "*",
