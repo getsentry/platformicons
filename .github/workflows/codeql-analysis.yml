@@ -84,13 +84,13 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
 
-  job_install_deps:
-    name: Install Dependencies
+  job_build:
+    name: Build
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - name: Check out current commit (${{ github.sha }})
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
@@ -98,20 +98,6 @@ jobs:
           cache: 'yarn'
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-
-  job_build:
-    name: Build
-    needs: job_install_deps
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    steps:
-      - name: Check out current commit (${{ github.sha }})
-        uses: actions/checkout@v2
-      - name: Set up Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: 'yarn'
       - name: Check build cache
         uses: actions/cache@v2
         id: cache_built_packages
@@ -132,7 +118,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out current commit (${{ github.sha }})
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
