@@ -92,9 +92,9 @@ jobs:
       - name: Check out current commit (${{ github.sha }})
         uses: actions/checkout@v2
       - name: Set up Node
-        uses: actions/setup-node@v1
-        # we use a hash of yarn.lock as our cache key, because if it hasn't changed, our dependencies haven't changed,
-        # so no need to reinstall them
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
       - name: Compute dependency cache key
         id: compute_lockfile_hash
         run: echo "hash=${{ hashFiles('yarn.lock') }}" >> "$GITHUB_OUTPUT"
