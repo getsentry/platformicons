@@ -57,6 +57,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-react": "react",
   "javascript-remix": "remix",
   "javascript-svelte": "svelte",
+  "javascript-sveltekit": "svelte",
   "javascript-vue": "vue",
   "javascript-wasm": "wasm",
   ionic: "ionic",
