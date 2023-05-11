@@ -31,6 +31,7 @@ export const PLATFORM_TO_ICON = {
   elixir: "elixir",
   flutter: "flutter",
   fsharp: "fsharp",
+  git: "git",
   go: "go",
   godot: "godot",
   java: "java",
@@ -63,6 +64,7 @@ export const PLATFORM_TO_ICON = {
   ionic: "ionic",
   kotlin: "kotlin",
   "kotlin-android": "android",
+  linux: "linux",
   native: "nativec",
   "native-qt": "qt",
   node: "nodejs",
@@ -116,6 +118,7 @@ export const PLATFORM_TO_ICON = {
   unreal: "unreal",
   unrealengine: "unreal",
   visualbasic: "visual-basic",
+  windows: "windows",
   // Don't add new platforms down here!
   // Please add them where they belong alphabetically
 } as const;
