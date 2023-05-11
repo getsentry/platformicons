@@ -72,6 +72,7 @@ export const PLATFORM_TO_ICON = {
   "node-express": "express",
   "node-gcpfunctions": "gcp",
   "node-koa": "koa",
+  "node-serverlesscloud": "serverless",
   perl: "perl",
   php: "php",
   "php-laravel": "laravel",
