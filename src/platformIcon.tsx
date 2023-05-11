@@ -72,6 +72,7 @@ export const PLATFORM_TO_ICON = {
   "node-express": "express",
   "node-gcpfunctions": "gcp",
   "node-koa": "koa",
+  "node-serverlesscloud": "serveless",
   perl: "perl",
   php: "php",
   "php-laravel": "laravel",
@@ -147,7 +148,7 @@ function getLanguageIcon(platform: string): Platform {
   return getIcon(language);
 }
 
-type Platform = typeof PLATFORM_TO_ICON[keyof typeof PLATFORM_TO_ICON];
+type Platform = (typeof PLATFORM_TO_ICON)[keyof typeof PLATFORM_TO_ICON];
 
 type Props = React.HTMLAttributes<HTMLDivElement | HTMLImageElement> & {
   platform: string;
