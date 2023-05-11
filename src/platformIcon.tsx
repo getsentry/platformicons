@@ -148,7 +148,7 @@ function getLanguageIcon(platform: string): Platform {
   return getIcon(language);
 }
 
-type Platform = (typeof PLATFORM_TO_ICON)[keyof typeof PLATFORM_TO_ICON];
+type Platform = typeof PLATFORM_TO_ICON[keyof typeof PLATFORM_TO_ICON];
 
 type Props = React.HTMLAttributes<HTMLDivElement | HTMLImageElement> & {
   platform: string;
