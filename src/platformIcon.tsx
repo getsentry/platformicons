@@ -33,6 +33,7 @@ export const PLATFORM_TO_ICON = {
   fsharp: "fsharp",
   git: "git",
   go: "go",
+  "go-echo": "echo",
   godot: "godot",
   java: "java",
   "java-appengine": "app-engine",
