@@ -99,6 +99,7 @@ export const PLATFORM_TO_ICON = {
   "python-pylons": "python",
   "python-pyramid": "pyramid",
   "python-pythonawslambda": "aws",
+  "python-quart": "quart",
   "python-rq": "redis",
   "python-sanic": "sanic",
   "python-serverless": "serverless",
