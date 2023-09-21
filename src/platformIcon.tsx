@@ -88,6 +88,7 @@ export const PLATFORM_TO_ICON = {
   "python-airflow": "apache-airflow",
   "python-awslambda": "aws",
   "python-azurefunctions": "azure",
+  "python-beam": "apache-beam",
   "python-bottle": "bottle",
   "python-celery": "celery",
   "python-chalice": "chalice",
