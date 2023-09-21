@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 80 80"
+   version="1.1"
+   id="svg95"
+   sodipodi:docname="apache-beam.svg"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs99">
+    <linearGradient
+       id="linear-gradient"
+       x1="0.58001"
+       x2="36.388"
+       y1="71.962997"
+       y2="71.962997"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#ffc400"
+         offset="0"
+         id="stop97" />
+      <stop
+         stop-color="#fecd00"
+         offset=".13695"
+         id="stop99" />
+      <stop
+         stop-color="#fed400"
+         offset=".36528"
+         id="stop101" />
+      <stop
+         stop-color="#fed600"
+         offset="1"
+         id="stop103" />
+    </linearGradient>
+    <linearGradient
+       id="linear-gradient-2"
+       x1="0.57999003"
+       x2="75.050003"
+       y1="59.873001"
+       y2="59.873001"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#ff0"
+         stop-opacity=".7"
+         offset="0"
+         id="stop106" />
+      <stop
+         stop-color="#fff600"
+         stop-opacity=".66022"
+         offset=".13194"
+         id="stop108" />
+      <stop
+         stop-color="#feef00"
+         stop-opacity=".62592"
+         offset=".31385"
+         id="stop110" />
+      <stop
+         stop-color="#feea00"
+         stop-opacity=".60587"
+         offset=".54652"
+         id="stop112" />
+      <stop
+         stop-color="#fee900"
+         stop-opacity=".6"
+         offset="1"
+         id="stop114" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview97"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="9.425"
+     inkscape:cx="40.265252"
+     inkscape:cy="56.551724"
+     inkscape:window-width="1512"
+     inkscape:window-height="916"
+     inkscape:window-x="652"
+     inkscape:window-y="374"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg95" />
+  <g
+     id="g674"
+     transform="matrix(0.55174305,0,0,0.55174305,34.729166,33.296668)">
+    <polygon
+       class="cls-1"
+       points="0.58,49.532 36.388,72.005 75.05,47.741 75.05,28.795 0.58,5.452 "
+       id="polygon121"
+       style="fill:#fee900"
+       transform="translate(-42.049011,-59.859379)" />
+    <polygon
+       class="cls-2"
+       points="0.58,94.477 75.05,47.741 75.05,28.795 0.58,5.452 0.58,49.532 0.58,50.125 "
+       id="polygon123"
+       style="fill:#ffc400"
+       transform="translate(-42.049011,-59.859379)" />
+    <polygon
+       class="cls-3"
+       points="0.58,94.436 36.388,71.963 0.58,49.491 0.58,50.083 "
+       id="polygon125"
+       style="opacity:0.75;fill:url(#linear-gradient)"
+       transform="translate(-42.049011,-59.859379)" />
+    <polygon
+       class="cls-2"
+       points="0.58,49.532 0.58,94.477 0.58,138.11 75.05,115.22 75.05,96.268 "
+       id="polygon127"
+       style="fill:#ffc400"
+       transform="translate(-42.049011,-59.859379)" />
+    <polygon
+       class="cls-4"
+       points="0.25,109.78 75.05,116.44 75.05,95.005 0.25,101.66 "
+       id="polygon129"
+       style="fill:#ffe082"
+       transform="translate(-42.049011,-59.859379)" />
+    <polygon
+       class="cls-4"
+       points="0,42.573 74.703,49.233 74.703,27.803 0,34.463 "
+       id="polygon131"
+       style="fill:#ffe082"
+       transform="translate(-42.049011,-59.859379)" />
+    <polygon
+       class="cls-1"
+       points="0.58,5.452 75.05,28.795 "
+       id="polygon133"
+       style="fill:#fee900"
+       transform="translate(-42.049011,-59.859379)" />
+    <polygon
+       class="cls-5"
+       points="75.05,47.741 36.388,72.005 "
+       id="polygon135"
+       style="fill:url(#linear-gradient-2)"
+       transform="translate(-42.049011,-59.859379)" />
+    <path
+       class="cls-6"
+       d="m 24.487989,45.86062 a 8.5081,8.5081 0 0 0 8.5082,8.5082 v -17.016 a 8.5082,8.5082 0 0 0 -8.5082,8.5082 z"
+       id="path137"
+       style="fill:#ffffff" />
+    <path
+       class="cls-6"
+       d="m 24.487989,-21.34938 a 8.5081,8.5081 0 0 0 8.5082,8.5082 v -17.016 a 8.5082,8.5082 0 0 0 -8.5082,8.5082 z"
+       id="path139"
+       style="fill:#ffffff" />
+    <path
+       class="cls-7"
+       d="m 59.727989,31.18062 a 31.952,31.952 0 0 0 -4.4878,-9.5674 30.165,30.165 0 0 0 -7.5947,-7.5459 34.292,34.292 0 0 0 -10.8,-4.8823 q 10.257,-4.3389 15.584,-12.23 a 31.009,31.009 0 0 0 5.3262,-17.754 41.114,41.114 0 0 0 -3.4028,-17.409 30.926,30.926 0 0 0 -9.814,-12.083 44.13,44.13 0 0 0 -15.683,-7.0522 86.45,86.45 0 0 0 -20.91,-2.3179 h -49.218 v 5.5424 l 72.894,22.71 a 2,2 0 0 1 1.3814,1.9019 v 16.275 a 2,2 0 0 1 -1.0221,1.7446 l -37.347,23.63 37.347,23.631 a 2,2 0 0 1 1.0221,1.7446 v 16.275 a 2,2 0 0 1 -1.3814,1.9019 l -72.894,22.71 v 5.5425 h 52.67 a 75.219,75.219 0 0 0 20.861,-2.6631 43.554,43.554 0 0 0 15.683,-7.9404 34.293,34.293 0 0 0 9.8633,-13.118 45.376,45.376 0 0 0 3.4028,-18.197 39.65,39.65 0 0 0 -1.4795,-10.85 z"
+       id="path141"
+       style="fill:#ff6d00;stroke:#ff6d00;stroke-width:0.4px;stroke-miterlimit:10" />
+  </g>
+</svg>
