@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 20 20"
+   version="1.1"
+   id="svg488"
+   sodipodi:docname="cloudflare.svg"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs492" />
+  <sodipodi:namedview
+     id="namedview490"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="26.02153"
+     inkscape:cx="9.8956517"
+     inkscape:cy="13.239037"
+     inkscape:window-width="2560"
+     inkscape:window-height="1081"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg488"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="-6.1103247,9.9698443"
+       orientation="0,-1"
+       id="guide2029" />
+  </sodipodi:namedview>
+  <g
+     id="g2027"
+     transform="matrix(0.09531659,0,0,0.09531659,16.116445,9.0647578)">
+    <path
+       class="cls-1"
+       d="m -25.34918,56.194637 1.07,-3.71 c 1.27,-4.41 0.8,-8.48 -1.34,-11.48 -2,-2.76 -5.26,-4.38 -9.25,-4.57 l -75.53,-0.96 a 1.47,1.47 0 0 1 -1.35,-2 2,2 0 0 1 1.75,-1.34 l 76.26,-1 c 9,-0.41 18.84,-7.75 22.27,-16.71 l 4.34,-11.36 a 2.68,2.68 0 0 0 0.18,-1 3.31,3.31 0 0 0 -0.06,-0.54 49.67,49.67 0 0 0 -95.49,-5.14 22.35,22.35 0 0 0 -35,23.42 31.73,31.73 0 0 0 -30.56,36.42 1.47,1.47 0 0 0 1.45,1.27 h 139.49 v 0 a 1.83,1.83 0 0 0 1.77,-1.3 z"
+       id="path1337"
+       style="fill:#f4801f;fill-opacity:1" />
+    <path
+       class="cls-2"
+       d="m -0.17918,3.924637 q -1,0 -2.1,0.06 a 0.88,0.88 0 0 0 -0.32,0.07 1.17,1.17 0 0 0 -0.76,0.8 l -3,10.26 c -1.28,4.41 -0.81,8.48 1.34,11.48 a 11.65,11.65 0 0 0 9.24,4.57 l 16.11,1 a 1.44,1.44 0 0 1 1.14,0.62 1.5,1.5 0 0 1 0.17,1.37 2,2 0 0 1 -1.75,1.34 l -16.73,1 c -9.09,0.42 -18.88,7.75 -22.31,16.7 l -1.21,3.16 a 0.9,0.9 0 0 0 0.79,1.22 h 57.63 a 1.55,1.55 0 0 0 1.54,-1.17 41.34,41.34 0 0 0 -39.76,-52.48 z"
+       id="path1339"
+       style="fill:#f9ab41;fill-opacity:1" />
+  </g>
+</svg>
