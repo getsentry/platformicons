@@ -1,44 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 20 20"
-   version="1.1"
-   id="svg488"
-   sodipodi:docname="mongodb.svg"
-   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs492" />
-  <sodipodi:namedview
-     id="namedview490"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="36.800001"
-     inkscape:cx="9.7418476"
-     inkscape:cy="9.6603258"
-     inkscape:window-width="2560"
-     inkscape:window-height="1081"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg488"
-     showguides="true"
-     inkscape:guide-bbox="true">
-    <sodipodi:guide
-       position="9.9999997,15.597826"
-       orientation="1,0"
-       id="guide605" />
-  </sodipodi:namedview>
-  <path
-     d="m 11.719865,2.2939798 c -0.838861,-0.990898 -1.561213,-1.99727851 -1.708791,-2.20629653 -0.01553,-0.01548905 -0.038842,-0.01548905 -0.054376,0 C 9.8091203,0.29670129 9.0867633,1.3030818 8.2479033,2.2939798 1.0476897,11.436517 9.3819271,17.606431 9.3819271,17.606431 l 0.069902,0.04643 c 0.062135,0.952231 0.2174799,2.322423 0.2174799,2.322423 H 9.9799991 10.29069 c 0,0 0.155353,-1.362479 0.217488,-2.322423 l 0.06989,-0.05414 c 0.0078,0 8.341998,-6.162201 1.141792,-15.3047387 z M 9.9799991,17.467059 c 0,0 -0.3728251,-0.317384 -0.4737944,-0.479972 v -0.01543 L 9.9566984,7.0162141 c 0,-0.030981 0.046609,-0.030981 0.046609,0 l 0.450495,9.9554469 v 0.01543 c -0.100978,0.162588 -0.4738022,0.479972 -0.4738022,0.479972 z"
-     fill="#00684a"
-     id="path508"
-     style="stroke-width:0.0771286" />
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_908)">
+<rect width="20" height="20" fill="white"/>
+<path d="M0 0H20V20H0V0Z" fill="#00684A"/>
+<path d="M11.5339 2.89477C10.8089 2.04824 10.1845 1.18848 10.0569 1.00992C10.0435 0.996693 10.0234 0.996693 10.0099 1.00992C9.88237 1.18848 9.25799 2.04824 8.53292 2.89477C2.30937 10.7053 9.51312 15.9763 9.51312 15.9763L9.57354 16.0159C9.62725 16.8294 9.76152 18 9.76152 18H10.0301H10.2986C10.2986 18 10.4329 16.836 10.4866 16.0159L10.547 15.9697C10.5537 15.9697 17.7575 10.7053 11.5339 2.89477ZM10.0301 15.8572C10.0301 15.8572 9.70781 15.5861 9.62054 15.4472V15.434L10.0099 6.929C10.0099 6.90254 10.0502 6.90254 10.0502 6.929L10.4396 15.434V15.4472C10.3523 15.5861 10.0301 15.8572 10.0301 15.8572Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_1_908">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
 </svg>
