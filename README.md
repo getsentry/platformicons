@@ -1,5 +1,4 @@
-Platformicons
-=============
+# Platformicons
 
 A set of platform and framework icons from the people behind https://sentry.io.
 
@@ -7,10 +6,11 @@ A set of platform and framework icons from the people behind https://sentry.io.
 
 There two kind of icons in this collection:
 
-* In `/svg` are icons that are for a smaller rendering size. They whould have a solid background to have high constract to make them easier to "read" in smaller sizes
-* In `/svg_80x80` are icons that are for bigger rendering sizes. They can have a transparent background.
+- In `/svg` are icons that are for a smaller rendering size. They whould have a solid background to have high constract to make them easier to "read" in smaller sizes
+- In `/svg_80x80` are icons that are for bigger rendering sizes. They can have a transparent background.
 
-## Publishing Changes 
+## Publishing Changes
+
 Platformicons uses GitHub Actions to publish changes. You don’t need to update the version in `package.json` since that’s done automatically.
 
 1. Make a change but don’t update the version in package.json
