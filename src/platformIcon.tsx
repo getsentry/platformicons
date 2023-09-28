@@ -102,7 +102,7 @@ export const PLATFORM_TO_ICON = {
   "python-flask": "flask",
   "python-gcpfunctions": "gcp",
   "python-gnu_backtrace": "gnu",
-  "python-grcp": "grpc",
+  "python-grpc": "grpc",
   "python-httpx": "httpx",
   "python-loguru": "loguru",
   "python-pylons": "python",
