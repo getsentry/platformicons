@@ -4,10 +4,10 @@ A set of platform and framework icons from the people behind https://sentry.io.
 
 ## SVG Versions
 
-There two kind of icons in this collection:
+There are two kinds of icons in this collection:
 
-- In `/svg` are icons that are for a smaller rendering size. They whould have a solid background to have high constract to make them easier to "read" in smaller sizes
-- In `/svg_80x80` are icons that are for bigger rendering sizes. They can have a transparent background.
+- The icons in `/svg` are for smaller rendering sizes. They can have a solid background to achieve high contrast to make them easier to "read" in smaller sizes.
+- The icons in `/svg_80x80` are for bigger rendering sizes. They can have a transparent background.
 
 ## Publishing Changes
 
