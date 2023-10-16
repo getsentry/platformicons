@@ -47,6 +47,7 @@ export const PLATFORM_TO_ICON = {
   "java-spring": "spring",
   "java-spring-boot": "springboot",
   javascript: "javascript",
+  "javascript-astro": "astro",
   "javascript-angular": "angularjs",
   "javascript-angularjs": "angularjs",
   "javascript-backbone": "backbone",
