@@ -23,7 +23,7 @@ export const PLATFORM_TO_ICON = {
   "dotnet-awslambda": "aws",
   "dotnet-blazor": "blazor",
   "dotnet-csharp": "csharp",
-  "dotnet-gcpfunctions": "gcp",
+  "dotnet-gcpfunctions": "google-cloud",
   "dotnet-maui": "maui",
   "dotnet-uno": "uno",
   "dotnet-xamarin": "xamarin",
