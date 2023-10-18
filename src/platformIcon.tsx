@@ -74,7 +74,7 @@ export const PLATFORM_TO_ICON = {
   node: "nodejs",
   "node-awslambda": "awslambda",
   "node-azurefunctions": "azure-functions",
-  "node-connect": "nodejs",
+  "node-connect": "connect",
   "node-express": "express",
   "node-gcpfunctions": "gcp-functions",
   "node-koa": "koa",
