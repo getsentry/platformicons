@@ -17,6 +17,7 @@ export const PLATFORM_TO_ICON = {
   "csharp-aspnetcore": "csharp",
   dart: "dart",
   default: "default",
+  deno: "deno",
   dotnet: "dotnet",
   "dotnet-aspnetcore": "dotnet",
   "dotnet-aspnet": "dotnet",
