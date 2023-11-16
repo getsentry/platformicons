@@ -1,6 +1,6 @@
 {
   "name": "platformicons",
-  "version": "5.7.9",
+  "version": "5.8.1",
   "description": "Web Platform and Framework Logo Set",
   "main": "build/index.js",
   "types": "build/index.d.ts",
