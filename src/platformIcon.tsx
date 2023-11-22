@@ -34,6 +34,7 @@ export const PLATFORM_TO_ICON = {
   electron: "electron",
   elixir: "elixir",
   flutter: "flutter",
+  font: "font",
   fsharp: "fsharp",
   git: "git",
   go: "go",
