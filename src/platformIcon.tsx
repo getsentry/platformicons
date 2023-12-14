@@ -69,6 +69,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-nextjs": "nextjs",
   "javascript-react": "react",
   "javascript-remix": "remix",
+  "javascript-solid":" solid",
   "javascript-svelte": "svelte",
   "javascript-sveltekit": "svelte",
   "javascript-vue": "vue",
