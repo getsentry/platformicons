@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>hf</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hf">
+            <rect id="矩形" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="80" height="80"></rect>
+            <path d="M12,18 L22,18 L22,62 L12,62 Z M55,18 L69,18 L69,27 L55,27 Z M55,36 L66,36 L66,45 L55,45 Z M26,36 L37,36 L37,45 L26,45 Z M41,18 L51,18 L51,62 L41,62 Z" id="形状结合" fill="#000000"></path>
+        </g>
+    </g>
+</svg>
