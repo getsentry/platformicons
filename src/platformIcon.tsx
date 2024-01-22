@@ -90,6 +90,7 @@ export const PLATFORM_TO_ICON = {
   "node-serverlesscloud": "serverless",
   perl: "perl",
   php: "php",
+  powershell: "powershell",
   "php-laravel": "laravel",
   "php-monolog": "php",
   "php-symfony2": "symfony",
@@ -186,7 +187,7 @@ function getLanguageIcon(platform: string): Platform {
   return getIcon(language);
 }
 
-type Platform = typeof PLATFORM_TO_ICON[keyof typeof PLATFORM_TO_ICON];
+type Platform = (typeof PLATFORM_TO_ICON)[keyof typeof PLATFORM_TO_ICON];
 
 type Props = React.HTMLAttributes<HTMLDivElement | HTMLImageElement> & {
   platform: string;
@@ -208,9 +209,9 @@ const PlatformIcon = ({
   ...otherProps
 }: Props) => {
   const icon = getIcon(platform);
-  const iconPathRaw = require(`../${
-    format === "lg" ? "svg_80x80" : "svg"
-  }/${icon}.svg`);
+  const iconPathRaw = require(
+    `../${format === "lg" ? "svg_80x80" : "svg"}/${icon}.svg`,
+  );
   const iconPath = iconPathRaw?.default ?? iconPathRaw;
 
   const languageIcon = getLanguageIcon(platform);
