@@ -155,6 +155,7 @@ export const PLATFORM_TO_ICON = {
   unreal: "unreal",
   unrealengine: "unreal",
   visualbasic: "visual-basic",
+  vscode: "vscode",
   windows: "windows",
   // Don't add new platforms down here!
   // Please add them where they belong alphabetically
