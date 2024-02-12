@@ -90,6 +90,7 @@ export const PLATFORM_TO_ICON = {
   "node-serverlesscloud": "serverless",
   perl: "perl",
   php: "php",
+  powershell: "powershell",
   "php-laravel": "laravel",
   "php-monolog": "php",
   "php-symfony2": "symfony",
