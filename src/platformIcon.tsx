@@ -88,6 +88,7 @@ export const PLATFORM_TO_ICON = {
   "node-gcpfunctions": "gcp-functions",
   "node-koa": "koa",
   "node-serverlesscloud": "serverless",
+  openai: "openai",
   perl: "perl",
   php: "php",
   powershell: "powershell",
