@@ -81,6 +81,7 @@ export const PLATFORM_TO_ICON = {
   linux: "linux",
   native: "nativec",
   "native-qt": "qt",
+  nintendo: "nintendo",
   node: "nodejs",
   "node-awslambda": "awslambda",
   "node-azurefunctions": "azure-functions",
