@@ -66,6 +66,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-cordova": "cordova",
   "javascript-electron": "electron",
   "javascript-ember": "ember",
+  "javascript-fastify": "fastify",
   "javascript-gatsby": "gatsby",
   "javascript-ionic": "ionic",
   "javascript-nextjs": "nextjs",
