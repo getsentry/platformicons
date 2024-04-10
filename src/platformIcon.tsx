@@ -69,6 +69,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-fastify": "fastify",
   "javascript-gatsby": "gatsby",
   "javascript-ionic": "ionic",
+  "javascript-nestjs": "nestjs",
   "javascript-nextjs": "nextjs",
   "javascript-react": "react",
   "javascript-remix": "remix",
