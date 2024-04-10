@@ -68,6 +68,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-ember": "ember",
   "javascript-fastify": "fastify",
   "javascript-gatsby": "gatsby",
+  "javascript-hapi": "hapi",
   "javascript-ionic": "ionic",
   "javascript-nestjs": "nestjs",
   "javascript-nextjs": "nextjs",
