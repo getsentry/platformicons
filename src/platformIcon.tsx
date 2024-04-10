@@ -41,6 +41,7 @@ export const PLATFORM_TO_ICON = {
   go: "go",
   "go-echo": "echo",
   "go-fasthttp": "fasthttp",
+  "go-fiber": "fiber",
   "go-gin": "gin",
   "go-iris": "iris",
   "go-martini": "martini",
