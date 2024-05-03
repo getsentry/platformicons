@@ -10,6 +10,7 @@ export const PLATFORM_TO_ICON = {
   cocoa: "apple",
   "cocoa-objc": "apple",
   "cocoa-swift": "swift",
+  cohere: "cohere",
   cordova: "cordova",
   cloudflare: "cloudflare",
   cpp: "cpp",
