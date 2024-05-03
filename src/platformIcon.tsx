@@ -81,7 +81,7 @@ export const PLATFORM_TO_ICON = {
   ionic: "ionic",
   kotlin: "kotlin",
   "kotlin-android": "android",
-  langchain: "langchainn",
+  langchain: "langchain",
   linux: "linux",
   native: "nativec",
   "native-qt": "qt",
