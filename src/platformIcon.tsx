@@ -158,6 +158,7 @@ export const PLATFORM_TO_ICON = {
   "python-tornado": "tornado",
   "python-tryton": "tryton",
   qt: "qt",
+  qwik: "qwik",
   "react-native": "react-native",
   ruby: "ruby",
   "ruby-rack": "ruby",
