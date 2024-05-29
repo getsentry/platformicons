@@ -97,6 +97,7 @@ export const PLATFORM_TO_ICON = {
   langchain: "langchain",
   linux: "linux",
   meteor: "meteor",
+  million: "million",
   native: "nativec",
   "native-qt": "qt",
   nintendo: "nintendo",
