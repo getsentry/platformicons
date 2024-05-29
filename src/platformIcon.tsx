@@ -113,6 +113,7 @@ export const PLATFORM_TO_ICON = {
   "node-nestjs": "nestjs",
   "node-serverlesscloud": "serverless",
   openai: "openai",
+  opennext: "opennext",
   perl: "perl",
   php: "php",
   powershell: "powershell",
