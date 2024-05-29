@@ -2,6 +2,7 @@ import React from "react";
 
 export const PLATFORM_TO_ICON = {
   alpinejs: "alpinejs",
+  analogjs: "analogjs",
   android: "android",
   anthropic: "anthropic",
   apple: "apple",
