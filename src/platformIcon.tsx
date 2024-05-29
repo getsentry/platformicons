@@ -175,6 +175,7 @@ export const PLATFORM_TO_ICON = {
   sql: "sql",
   sqlserver: "sqlserver",
   swift: "swift",
+  tauri: "tauri",
   unity: "unity",
   // This will be deprecated in favor of 'unrealengine'
   ue4: "unreal",
