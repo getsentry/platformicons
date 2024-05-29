@@ -96,6 +96,7 @@ export const PLATFORM_TO_ICON = {
   "kotlin-android": "android",
   langchain: "langchain",
   linux: "linux",
+  meteor: "meteor",
   native: "nativec",
   "native-qt": "qt",
   nintendo: "nintendo",
