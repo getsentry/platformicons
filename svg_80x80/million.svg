@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <rect width="100%" height="100%"/>
+  <path fill="url(#a)" fill-rule="evenodd" d="M21.295 58.527c3.497-5.005 10.612-8.43 18.821-8.43 8.209 0 15.325 3.425 18.821 8.43-3.496 5.005-10.612 8.43-18.82 8.43-8.21 0-15.325-3.425-18.822-8.43Z" clip-rule="evenodd"/>
+  <path fill="url(#b)" d="M21.168 21.341C24.663 16.39 31.773 13 39.978 13c8.203 0 15.314 3.39 18.808 8.341-3.494 4.952-10.605 8.342-18.809 8.342s-15.314-3.39-18.809-8.342Z"/>
+  <path fill="url(#c)" d="M40.337 40.078c-5.084 4.91-11.98 7.668-19.169 7.668-7.19 0-14.084-2.758-19.168-7.668L21.168 21.34l19.169 18.737Z"/>
+  <path fill="url(#d)" d="M78 40.087c-5.084 4.91-11.98 7.668-19.168 7.668-7.19 0-14.085-2.758-19.169-7.668L58.832 21.34 78 40.087Z"/>
+  <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(-.27075 5.44057 -12.1274 -.60353 40.116 58.527)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#845CE7"/>
+    <stop offset="1" stop-color="#AF73D8"/>
+  </radialGradient>
+  <radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="matrix(-.54667 11.21428 -24.48822 -1.19373 40 30.378)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#845CE7"/>
+    <stop offset="1" stop-color="#AF73D8"/>
+  </radialGradient>
+  <radialGradient id="c" cx="0" cy="0" r="1" gradientTransform="matrix(-.54667 11.21428 -24.48822 -1.19373 40 30.378)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#845CE7"/>
+    <stop offset="1" stop-color="#AF73D8"/>
+  </radialGradient>
+  <radialGradient id="d" cx="0" cy="0" r="1" gradientTransform="matrix(-.54667 11.21428 -24.48822 -1.19373 40 30.378)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#845CE7"/>
+    <stop offset="1" stop-color="#AF73D8"/>
+  </radialGradient>
+</svg>
