@@ -176,6 +176,7 @@ export const PLATFORM_TO_ICON = {
   "ruby-rails": "rails",
   "ruby-sidekiq": "sidekiq",
   "ruby-sinatra": "sinatra",
+  "ruby-trailblazer": "trailblazer",
   rust: "rust",
   "rust-actix": "actix",
   scala: "scala",
