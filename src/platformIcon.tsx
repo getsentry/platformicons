@@ -123,6 +123,7 @@ export const PLATFORM_TO_ICON = {
   php: "php",
   powershell: "powershell",
   "php-laravel": "laravel",
+  "php-livewire": "livewire",
   "php-monolog": "php",
   "php-symfony2": "symfony",
   "php-symfony": "symfony",
