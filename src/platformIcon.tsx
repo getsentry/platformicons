@@ -48,6 +48,7 @@ export const PLATFORM_TO_ICON = {
   "go-martini": "martini",
   "go-negroni": "go",
   godot: "godot",
+  hydrogen: "hydrogen",
   huggingface: "huggingface",
   java: "java",
   "java-appengine": "app-engine",
