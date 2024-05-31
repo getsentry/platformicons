@@ -169,6 +169,7 @@ export const PLATFORM_TO_ICON = {
   "react-native": "react-native",
   ruby: "ruby",
   "ruby-activeadmin": "activeadmin",
+  "ruby-grape": "grape",
   "ruby-rack": "ruby",
   "ruby-rails": "rails",
   "ruby-sidekiq": "sidekiq",
