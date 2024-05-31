@@ -170,6 +170,7 @@ export const PLATFORM_TO_ICON = {
   ruby: "ruby",
   "ruby-activeadmin": "activeadmin",
   "ruby-grape": "grape",
+  "ruby-hanami": "hanami",
   "ruby-rack": "ruby",
   "ruby-rails": "rails",
   "ruby-sidekiq": "sidekiq",
