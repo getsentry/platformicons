@@ -1,9 +1,12 @@
 import React from "react";
 
 export const PLATFORM_TO_ICON = {
+  amazon: "amazon",
+  amd: "amd",
   android: "android",
   anthropic: "anthropic",
   apple: "apple",
+  arm: "arm",
   bun: "bun",
   capacitor: "capacitor",
   clojure: "clojure",
@@ -107,6 +110,7 @@ export const PLATFORM_TO_ICON = {
   native: "nativec",
   "native-qt": "qt",
   nintendo: "nintendo",
+  nintendoswitch: "nintendoswitch",
   node: "nodejs",
   "node-awslambda": "awslambda",
   "node-azurefunctions": "azure-functions",
@@ -118,9 +122,11 @@ export const PLATFORM_TO_ICON = {
   "node-koa": "koa",
   "node-nestjs": "nestjs",
   "node-serverlesscloud": "serverless",
+  nvidia: "nvidia",
   openai: "openai",
   perl: "perl",
   php: "php",
+  playstation: "playstation",
   powershell: "powershell",
   "php-laravel": "laravel",
   "php-livewire": "livewire",
