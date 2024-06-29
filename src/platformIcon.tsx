@@ -36,6 +36,7 @@ export const PLATFORM_TO_ICON = {
   "dotnet-xamarin": "xamarin",
   dotnetcore: "dotnetcore",
   dotnetfx: "dotnetfx",
+  dotnetframework: "dotnetframework",
   edge: "edge",
   edgelegacy: "edge-legacy",
   electron: "electron",
