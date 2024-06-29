@@ -113,6 +113,7 @@ export const PLATFORM_TO_ICON = {
   langchain: "langchain",
   linux: "linux",
   mono: "mono",
+  motorola: "motorola",
   native: "nativec",
   "native-qt": "qt",
   nintendo: "nintendo",
