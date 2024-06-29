@@ -202,6 +202,7 @@ export const PLATFORM_TO_ICON = {
   sqlserver: "sqlserver",
   swift: "swift",
   tauri: "tauri",
+  ubuntu: "ubuntu",
   unity: "unity",
   // This will be deprecated in favor of 'unrealengine'
   ue4: "unreal",
