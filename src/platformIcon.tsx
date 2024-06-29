@@ -17,6 +17,7 @@ export const PLATFORM_TO_ICON = {
   cloudflare: "cloudflare",
   cpp: "cpp",
   cryengine: "cryengine",
+  crystal: "crystal",
   css: "css",
   csharp: "csharp",
   "csharp-aspnetcore": "csharp",
