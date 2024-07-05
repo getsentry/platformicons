@@ -4,6 +4,7 @@ export const PLATFORM_TO_ICON = {
   amazon: "amazon",
   amd: "amd",
   android: "android",
+  "android-phone": "android-phone",
   anthropic: "anthropic",
   apple: "apple",
   "apple-ipad": "apple-ipad",
