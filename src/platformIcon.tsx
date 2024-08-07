@@ -95,6 +95,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-meteor": "meteor",
   "javascript-million": "million",
   "javascript-nextjs": "nextjs",
+  "javascript-nuxt": "nuxt",
   "javascript-opennext": "opennext",
   "javascript-qwik": "qwik",
   "javascript-react": "react",
