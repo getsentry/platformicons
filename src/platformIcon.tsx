@@ -167,6 +167,7 @@ export const PLATFORM_TO_ICON = {
   "python-chalice": "chalice",
   "python-clickhouse-driver": "clickhouse",
   "python-django": "django",
+  "python-dramatiq": "dramatiq",
   "python-falcon": "falcon",
   "python-fastapi": "fastapi",
   "python-flask": "flask",
