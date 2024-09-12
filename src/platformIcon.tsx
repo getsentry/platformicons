@@ -194,6 +194,7 @@ export const PLATFORM_TO_ICON = {
   "python-tryton": "tryton",
   qq: "qq",
   qt: "qt",
+  ray: "ray",
   "react-native": "react-native",
   ruby: "ruby",
   "ruby-activeadmin": "activeadmin",
