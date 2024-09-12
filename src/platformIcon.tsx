@@ -176,6 +176,7 @@ export const PLATFORM_TO_ICON = {
   "python-grpc": "grpc",
   "python-httpx": "httpx",
   "python-huey": "huey",
+  "python-litestar": "litestar",
   "python-loguru": "loguru",
   "python-pylons": "python",
   "python-pymongo": "mongodb",
