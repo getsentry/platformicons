@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "build",
     "module": "esnext",
-    "target": "es5",
+    "target": "ES2020",
     "lib": ["esnext", "dom"],
     "sourceMap": true,
     "allowJs": false,
@@ -14,7 +14,6 @@
     "noImplicitThis": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "allowSyntheticDefaultImports": true

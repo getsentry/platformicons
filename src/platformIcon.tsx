@@ -239,7 +239,7 @@ function normalizePlatform(platform: string): string {
 }
 
 function getIcon(platform: string): Platform {
-  const normalizedPlatform = normalizePlatform(platform);
+  const normalizedPlatform = normalizePlatform(platform) as keyof typeof PLATFORM_TO_ICON;
   const icon = PLATFORM_TO_ICON[normalizedPlatform];
 
   if (icon) {
