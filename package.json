@@ -3,10 +3,12 @@
   "version": "7.0.0",
   "description": "Web Platform and Framework Logo Set",
   "main": "build/index.js",
+  "module": "esmbuild/index.js",
   "types": "build/index.d.ts",
   "sideEffects": false,
   "files": [
     "build/",
+    "esmbuild/",
     "svg/",
     "svg_80x80/"
   ],
@@ -27,8 +29,7 @@
   },
   "homepage": "https://github.com/getsentry/platformicons",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch",
+    "build": "tsc && tsc -p tsconfig.esm.json",
     "prepare": "yarn build"
   },
   "peerDependencies": {
