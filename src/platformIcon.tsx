@@ -228,6 +228,7 @@ export const PLATFORM_TO_ICON = {
   visualbasic: "visual-basic",
   vscode: "vscode",
   windows: "windows",
+  xbox: "xbox",
   // Don't add new platforms down here!
   // Please add them where they belong alphabetically
 } as const;
