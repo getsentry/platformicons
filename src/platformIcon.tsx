@@ -199,6 +199,7 @@ export const PLATFORM_TO_ICON = {
   qq: "qq",
   qt: "qt",
   "react-native": "react-native",
+  "react-router": "react-router",
   ruby: "ruby",
   "ruby-activeadmin": "activeadmin",
   "ruby-grape": "grape",
