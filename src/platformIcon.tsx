@@ -132,6 +132,8 @@ export const PLATFORM_TO_ICON = {
   node: "nodejs",
   "node-awslambda": "awslambda",
   "node-azurefunctions": "azure-functions",
+  "node-cloudflare-pages": "cloudflare"
+  "node-cloudflare-workers": "cloudflare"
   "node-connect": "connect",
   "node-express": "express",
   "node-fastify": "fastify",
