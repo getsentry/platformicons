@@ -226,6 +226,7 @@ export const PLATFORM_TO_ICON = {
   tauri: "tauri",
   ubuntu: "ubuntu",
   unity: "unity",
+  unleash: "unleash",
   // This will be deprecated in favor of 'unrealengine'
   ue4: "unreal",
   unreal: "unreal",
