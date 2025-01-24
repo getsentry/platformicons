@@ -122,6 +122,7 @@ export const PLATFORM_TO_ICON = {
   kotlin: "kotlin",
   "kotlin-android": "android",
   langchain: "langchain",
+  launchdarkly: "launchdarkly",
   linux: "linux",
   mono: "mono",
   motorola: "motorola",
@@ -144,6 +145,7 @@ export const PLATFORM_TO_ICON = {
   "node-serverlesscloud": "serverless",
   nvidia: "nvidia",
   openai: "openai",
+  openfeature: "openfeature",
   opera: "opera",
   perl: "perl",
   php: "php",
@@ -224,6 +226,7 @@ export const PLATFORM_TO_ICON = {
   tauri: "tauri",
   ubuntu: "ubuntu",
   unity: "unity",
+  unleash: "unleash",
   // This will be deprecated in favor of 'unrealengine'
   ue4: "unreal",
   unreal: "unreal",
