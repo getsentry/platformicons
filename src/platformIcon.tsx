@@ -145,6 +145,7 @@ export const PLATFORM_TO_ICON = {
   "node-serverlesscloud": "serverless",
   nvidia: "nvidia",
   openai: "openai",
+  openfeature: "openfeature",
   opera: "opera",
   perl: "perl",
   php: "php",
