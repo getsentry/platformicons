@@ -234,6 +234,7 @@ export const PLATFORM_TO_ICON = {
   ue4: "unreal",
   unreal: "unreal",
   unrealengine: "unreal",
+  uwp: "windows",
   visualbasic: "visual-basic",
   vscode: "vscode",
   windows: "windows",
