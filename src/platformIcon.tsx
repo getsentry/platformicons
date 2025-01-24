@@ -200,6 +200,7 @@ export const PLATFORM_TO_ICON = {
   "python-sqlalchemy": "sqlalchemy",
   "python-tornado": "tornado",
   "python-tryton": "tryton",
+  "python-typer": "typer",
   qq: "qq",
   qt: "qt",
   "react-native": "react-native",
