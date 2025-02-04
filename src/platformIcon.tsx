@@ -133,18 +133,6 @@ export const PLATFORM_TO_ICON = {
   nintendo: "nintendo",
   "nintendo-switch": "nintendo-switch",
   node: "nodejs",
-  "node-awslambda": "awslambda",
-  "node-azurefunctions": "azure-functions",
-  "node-cloudflare-pages": "cloudflare",
-  "node-cloudflare-workers": "cloudflare",
-  "node-connect": "connect",
-  "node-express": "express",
-  "node-fastify": "fastify",
-  "node-gcpfunctions": "gcp-functions",
-  "node-hapi": "hapi",
-  "node-koa": "koa",
-  "node-nestjs": "nestjs",
-  "node-serverlesscloud": "serverless",
   nvidia: "nvidia",
   openai: "openai",
   openfeature: "openfeature",
@@ -243,10 +231,14 @@ export const PLATFORM_TO_ICON = {
   // Please add them where they belong alphabetically
 } as const;
 
+
 function normalizePlatform(platform: string): string {
   // sentry uses format python-django, but docs uses python.django
   // this function normalizes that
-  return platform.replace(".", "-");
+  const dashedPlatform =  platform.replace(".", "-");
+
+  // Allow `node` as an alias for `javascript` to ensure backwards compatibility
+  return dashedPlatform.replace(/^node-/, 'javascript-')
 }
 
 function getIcon(platform: string): Platform {
