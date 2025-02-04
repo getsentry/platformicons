@@ -133,18 +133,6 @@ export const PLATFORM_TO_ICON = {
   nintendo: "nintendo",
   "nintendo-switch": "nintendo-switch",
   node: "nodejs",
-  "node-awslambda": "awslambda",
-  "node-azurefunctions": "azure-functions",
-  "node-cloudflare-pages": "cloudflare",
-  "node-cloudflare-workers": "cloudflare",
-  "node-connect": "connect",
-  "node-express": "express",
-  "node-fastify": "fastify",
-  "node-gcpfunctions": "gcp-functions",
-  "node-hapi": "hapi",
-  "node-koa": "koa",
-  "node-nestjs": "nestjs",
-  "node-serverlesscloud": "serverless",
   nvidia: "nvidia",
   openai: "openai",
   openfeature: "openfeature",
@@ -243,10 +231,30 @@ export const PLATFORM_TO_ICON = {
   // Please add them where they belong alphabetically
 } as const;
 
+
+// DO NOT EXPORT THIS MAP. 
+// It's in place to ensure compatibility with existing code that uses the "node" prefix.
+const NODE_TO_JS_MAP = {
+  "node-awslambda": "javascript-awslambda",
+  "node-azurefunctions": "javascript-azurefunctions",
+  "node-cloudflare-pages": "javascript-cloudflare-pages",
+  "node-cloudflare-workers": "javascript-cloudflare-workers",
+  "node-connect": "javascript-connect",
+  "node-express": "javascript-express",
+  "node-fastify": "javascript-fastify",
+  "node-gcpfunctions": "javascript-gcpfunctions",
+  "node-hapi": "javascript-hapi",
+  "node-koa": "javascript-koa",
+  "node-nestjs": "javascript-nestjs",
+  "node-serverlesscloud": "javascript-serverlesscloud",
+}
+
 function normalizePlatform(platform: string): string {
   // sentry uses format python-django, but docs uses python.django
   // this function normalizes that
-  return platform.replace(".", "-");
+  const dashedPlatform =  platform.replace(".", "-");
+
+  return NODE_TO_JS_MAP[dashedPlatform as keyof typeof NODE_TO_JS_MAP] ?? dashedPlatform
 }
 
 function getIcon(platform: string): Platform {
