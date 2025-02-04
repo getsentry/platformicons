@@ -254,7 +254,8 @@ function normalizePlatform(platform: string): string {
   // this function normalizes that
   const dashedPlatform =  platform.replace(".", "-");
 
-  return NODE_TO_JS_MAP[dashedPlatform as keyof typeof NODE_TO_JS_MAP] ?? dashedPlatform
+  // Allow `node` as an alias for `javascript` to ensure backwards compatibility
+  return dashedPlatform.replace(/^node-/, 'javascript-')
 }
 
 function getIcon(platform: string): Platform {
