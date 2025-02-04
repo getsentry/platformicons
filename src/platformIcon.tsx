@@ -232,23 +232,6 @@ export const PLATFORM_TO_ICON = {
 } as const;
 
 
-// DO NOT EXPORT THIS MAP. 
-// It's in place to ensure compatibility with existing code that uses the "node" prefix.
-const NODE_TO_JS_MAP = {
-  "node-awslambda": "javascript-awslambda",
-  "node-azurefunctions": "javascript-azurefunctions",
-  "node-cloudflare-pages": "javascript-cloudflare-pages",
-  "node-cloudflare-workers": "javascript-cloudflare-workers",
-  "node-connect": "javascript-connect",
-  "node-express": "javascript-express",
-  "node-fastify": "javascript-fastify",
-  "node-gcpfunctions": "javascript-gcpfunctions",
-  "node-hapi": "javascript-hapi",
-  "node-koa": "javascript-koa",
-  "node-nestjs": "javascript-nestjs",
-  "node-serverlesscloud": "javascript-serverlesscloud",
-}
-
 function normalizePlatform(platform: string): string {
   // sentry uses format python-django, but docs uses python.django
   // this function normalizes that
