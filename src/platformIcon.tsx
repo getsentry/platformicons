@@ -118,6 +118,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-solidstart": "solidstart",
   "javascript-svelte": "svelte",
   "javascript-sveltekit": "svelte",
+  "javascript-tanstackstart-react": "tanstack",
   "javascript-vue": "vue",
   "javascript-wasm": "wasm",
   ionic: "ionic",
