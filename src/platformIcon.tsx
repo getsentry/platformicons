@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react";
 
 export const PLATFORM_TO_ICON = {
   amazon: "amazon",
@@ -118,6 +118,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-solidstart": "solidstart",
   "javascript-svelte": "svelte",
   "javascript-sveltekit": "svelte",
+  "javascript-tanstackstart-react": "tanstack",
   "javascript-vue": "vue",
   "javascript-wasm": "wasm",
   ionic: "ionic",
@@ -231,18 +232,19 @@ export const PLATFORM_TO_ICON = {
   // Please add them where they belong alphabetically
 } as const;
 
-
 function normalizePlatform(platform: string): string {
   // sentry uses format python-django, but docs uses python.django
   // this function normalizes that
-  const dashedPlatform =  platform.replace(".", "-");
+  const dashedPlatform = platform.replace(".", "-");
 
   // Allow `node` as an alias for `javascript` to ensure backwards compatibility
-  return dashedPlatform.replace(/^node-/, 'javascript-')
+  return dashedPlatform.replace(/^node-/, "javascript-");
 }
 
 function getIcon(platform: string): Platform {
-  const normalizedPlatform = normalizePlatform(platform) as keyof typeof PLATFORM_TO_ICON;
+  const normalizedPlatform = normalizePlatform(
+    platform
+  ) as keyof typeof PLATFORM_TO_ICON;
   const icon = PLATFORM_TO_ICON[normalizedPlatform];
 
   if (icon) {
@@ -284,9 +286,9 @@ const PlatformIcon = ({
   ...otherProps
 }: Props) => {
   const icon = getIcon(platform);
-  const iconPathRaw = require(
-    `../${format === "lg" ? "svg_80x80" : "svg"}/${icon}.svg`,
-  );
+  const iconPathRaw = require(`../${
+    format === "lg" ? "svg_80x80" : "svg"
+  }/${icon}.svg`);
   const iconPath = iconPathRaw?.default ?? iconPathRaw;
 
   const languageIcon = getLanguageIcon(platform);
