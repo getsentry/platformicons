@@ -212,6 +212,7 @@ export const PLATFORM_TO_ICON = {
   samsung: "samsung",
   scala: "scala",
   stride3d: "stride3d",
+  supabase: "supabase",
   sql: "sql",
   sqlserver: "sqlserver",
   swift: "swift",
