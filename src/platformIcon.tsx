@@ -55,6 +55,7 @@ export const PLATFORM_TO_ICON = {
   flutter: "flutter",
   font: "font",
   fsharp: "fsharp",
+  gemini: "gemini",
   git: "git",
   go: "go",
   "go-echo": "echo",
