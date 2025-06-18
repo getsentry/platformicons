@@ -133,6 +133,7 @@ export const PLATFORM_TO_ICON = {
   linux: "linux",
   mono: "mono",
   motorola: "motorola",
+  mistral: "mistral",
   native: "nativec",
   "native-qt": "qt",
   nintendo: "nintendo",
