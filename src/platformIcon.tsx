@@ -67,6 +67,7 @@ export const PLATFORM_TO_ICON = {
   "go-negroni": "go",
   godot: "godot",
   grok: "grok",
+  groq: "groq",
   huggingface: "huggingface",
   "internet-explorer": "internet-explorer",
   java: "java",
