@@ -31,6 +31,7 @@ export const PLATFORM_TO_ICON = {
   csharp: "csharp",
   "csharp-aspnetcore": "csharp",
   dart: "dart",
+  deepseek: "deepseek",
   default: "default",
   deno: "deno",
   dotnet: "dotnet",
