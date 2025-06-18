@@ -144,6 +144,7 @@ export const PLATFORM_TO_ICON = {
   openfeature: "openfeature",
   opera: "opera",
   perl: "perl",
+  perplexity: "perplexity",
   php: "php",
   playstation: "playstation",
   powershell: "powershell",
