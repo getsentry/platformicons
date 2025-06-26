@@ -243,13 +243,8 @@ export const PLATFORM_TO_ICON = {
   // Please add them where they belong alphabetically
 } as const;
 
-
 function normalizePlatform(platform: string): string {
-  // sentry uses format python-django, but docs uses python.django
-  // this function normalizes that
-  const dashedPlatform =  platform.replace(".", "-");
-
-  // Allow `node` as an alias for `javascript` to ensure backwards compatibility
+  const dashedPlatform = platform.replace(".", "-");
   return dashedPlatform.replace(/^node-/, 'javascript-')
 }
 
@@ -270,22 +265,24 @@ function getIcon(platform: string): Platform {
 
 function getLanguageIcon(platform: string): Platform {
   const [language] = normalizePlatform(platform).split("-");
-
   return getIcon(language);
 }
 
 type Platform = (typeof PLATFORM_TO_ICON)[keyof typeof PLATFORM_TO_ICON];
+type PlatformName = keyof typeof PLATFORM_TO_ICON;
 
 type Props = React.HTMLAttributes<HTMLDivElement | HTMLImageElement> & {
-  platform: string;
+  platform: PlatformName | string;
   size?: string | number;
   format?: "sm" | "lg";
   radius?: number | null;
   withLanguageIcon?: boolean;
   languageIconStyles?: React.CSSProperties;
+  lazy?: boolean;
+  rootMargin?: string;
 };
 
-const PlatformIcon = ({
+const PlatformIcon = React.memo(({
   platform,
   size = 20,
   format = "sm",
@@ -293,29 +290,121 @@ const PlatformIcon = ({
   withLanguageIcon,
   languageIconStyles = {},
   style = {},
+  lazy = false,
+  rootMargin = "50px",
   ...otherProps
 }: Props) => {
+  const [iconSrc, setIconSrc] = React.useState<string>("");
+  const [languageIconSrc, setLanguageIconSrc] = React.useState<string>("");
+  const [isVisible, setIsVisible] = React.useState(!lazy);
+  const elementRef = React.useRef<HTMLDivElement | HTMLImageElement>(null);
+  
   const icon = getIcon(platform);
-  const iconPathRaw = require(
-    `../${format === "lg" ? "svg_80x80" : "svg"}/${icon}.svg`,
-  );
-  const iconPath = iconPathRaw?.default ?? iconPathRaw;
-
   const languageIcon = getLanguageIcon(platform);
-  const languageIconPathRaw = require(`../svg/${languageIcon}.svg`);
-  const languageIconPath = languageIconPathRaw?.default ?? languageIconPathRaw;
+  const shouldShowLanguageIcon = withLanguageIcon && languageIcon !== icon && languageIcon !== "default";
 
-  if (withLanguageIcon && languageIcon !== icon && languageIcon !== "default") {
+  React.useEffect(() => {
+    if (!lazy || isVisible) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin }
+    );
+
+    const currentElement = elementRef.current;
+    if (currentElement) {
+      observer.observe(currentElement);
+    }
+
+    return () => {
+      if (currentElement) {
+        observer.unobserve(currentElement);
+      }
+      observer.disconnect();
+    };
+  }, [lazy, rootMargin, isVisible]);
+
+  React.useEffect(() => {
+    if (!isVisible) return;
+
+    // Load main icon
+    import(`../${format === "lg" ? "svg_80x80" : "svg"}/${icon}.svg`)
+      .then(module => setIconSrc(module.default || module))
+      .catch(() => {
+        // Fallback to default icon
+        import(`../${format === "lg" ? "svg_80x80" : "svg"}/default.svg`)
+          .then(module => setIconSrc(module.default || module))
+          .catch(() => {});
+      });
+  }, [icon, format, isVisible]);
+
+  React.useEffect(() => {
+    if (!isVisible || !shouldShowLanguageIcon) return;
+
+    import(`../svg/${languageIcon}.svg`)
+      .then(module => setLanguageIconSrc(module.default || module))
+      .catch(() => {});
+  }, [languageIcon, shouldShowLanguageIcon, isVisible]);
+
+  const commonProps = {
+    ref: elementRef,
+    ...otherProps,
+    style: {
+      width: size,
+      height: size,
+      borderRadius: `${radius}px`,
+      ...style,
+    }
+  };
+
+  if (!iconSrc && (lazy || !isVisible)) {
     return (
-      <div {...otherProps} style={{ position: "relative", ...style }}>
+      <div
+        {...commonProps}
+        style={{
+          ...commonProps.style,
+          backgroundColor: '#f3f4f6',
+          display: 'inline-flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontSize: '8px',
+          color: '#9ca3af',
+        }}
+      >
+        ⏳
+      </div>
+    );
+  }
+
+  if (!iconSrc) {
+    return (
+      <div
+        {...commonProps}
+        style={{
+          ...commonProps.style,
+          backgroundColor: '#e5e7eb',
+        }}
+      />
+    );
+  }
+
+  if (shouldShowLanguageIcon && languageIconSrc) {
+    return (
+      <div {...otherProps} style={{ position: "relative", ...style }} ref={elementRef}>
         <img
-          src={iconPath}
+          src={iconSrc}
           width={size}
           height={size}
           style={{ borderRadius: `${radius}px` }}
+          alt={`${platform} icon`}
         />
         <img
-          src={languageIconPath}
+          src={languageIconSrc}
           style={{
             position: "absolute",
             bottom: "-1px",
@@ -325,6 +414,7 @@ const PlatformIcon = ({
             borderRadius: "2px",
             ...languageIconStyles,
           }}
+          alt={`${languageIcon} language icon`}
         />
       </div>
     );
@@ -332,13 +422,17 @@ const PlatformIcon = ({
 
   return (
     <img
-      src={iconPath}
+      src={iconSrc}
       width={size}
       height={size}
       {...otherProps}
+      ref={elementRef as React.RefObject<HTMLImageElement>}
       style={{ borderRadius: `${radius}px`, ...style }}
+      alt={`${platform} icon`}
     />
   );
-};
+});
+
+PlatformIcon.displayName = 'PlatformIcon';
 
 export default PlatformIcon;
