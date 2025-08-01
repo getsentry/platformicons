@@ -1,6 +1,6 @@
 {
   "name": "platformicons",
-  "version": "8.0.9",
+  "version": "9.0.0",
   "description": "Web Platform and Framework Logo Set",
   "main": "build/index.js",
   "module": "esmbuild/index.js",
