@@ -140,7 +140,6 @@ export const PLATFORM_TO_ICON = {
   "native-qt": "qt",
   nintendo: "nintendo",
   "nintendo-switch": "nintendo-switch",
-  "nintendo-switch-2": "nintendo-switch-2",
   node: "nodejs",
   nvidia: "nvidia",
   openai: "openai",
