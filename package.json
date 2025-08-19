@@ -30,7 +30,7 @@
   "homepage": "https://github.com/getsentry/platformicons",
   "scripts": {
     "build": "tsc && tsc -p tsconfig.esm.json",
-    "prepare": "yarn build"
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "react": "*"
