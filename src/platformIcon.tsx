@@ -131,6 +131,7 @@ export const PLATFORM_TO_ICON = {
   kotlin: "kotlin",
   "kotlin-android": "android",
   langchain: "langchain",
+  langgraph: "langgraph",
   launchdarkly: "launchdarkly",
   linux: "linux",
   mono: "mono",
