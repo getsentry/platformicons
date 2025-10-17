@@ -160,6 +160,7 @@ export const PLATFORM_TO_ICON = {
   "php-monolog": "php",
   "php-symfony2": "symfony",
   "php-symfony": "symfony",
+  "pydantic-ai": "pydantic-ai",
   python: "python",
   "python-aiohttp": "aiohttp",
   "python-airflow": "apache-airflow",
