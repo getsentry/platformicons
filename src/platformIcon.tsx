@@ -133,6 +133,7 @@ export const PLATFORM_TO_ICON = {
   langchain: "langchain",
   langgraph: "langgraph",
   launchdarkly: "launchdarkly",
+  litellm: "litellm",
   linux: "linux",
   mono: "mono",
   motorola: "motorola",
