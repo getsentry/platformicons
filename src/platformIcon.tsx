@@ -136,6 +136,7 @@ export const PLATFORM_TO_ICON = {
   litellm: "litellm",
   linux: "linux",
   mastra: "mastra",
+  mcp: "mcp",
   mono: "mono",
   motorola: "motorola",
   mistral: "mistral",
