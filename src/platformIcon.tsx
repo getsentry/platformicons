@@ -243,6 +243,7 @@ export const PLATFORM_TO_ICON = {
   unreal: "unreal",
   unrealengine: "unreal",
   uwp: "windows",
+  vercel: "vercel",
   visualbasic: "visual-basic",
   vscode: "vscode",
   windows: "windows",
