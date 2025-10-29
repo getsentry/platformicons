@@ -228,6 +228,7 @@ export const PLATFORM_TO_ICON = {
   safari: "safari",
   samsung: "samsung",
   scala: "scala",
+  steamos: "steamos",
   stride3d: "stride3d",
   supabase: "supabase",
   sql: "sql",
