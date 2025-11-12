@@ -53,6 +53,7 @@ export const PLATFORM_TO_ICON = {
   "edge-legacy": "edge-legacy",
   electron: "electron",
   elixir: "elixir",
+  fastmcp: "fastmcp",
   firefox: "firefox",
   flutter: "flutter",
   font: "font",
