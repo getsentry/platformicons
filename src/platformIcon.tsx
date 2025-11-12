@@ -151,6 +151,7 @@ export const PLATFORM_TO_ICON = {
   openai: "openai",
   openfeature: "openfeature",
   opera: "opera",
+  perforce: "perforce",
   perl: "perl",
   perplexity: "perplexity",
   php: "php",
