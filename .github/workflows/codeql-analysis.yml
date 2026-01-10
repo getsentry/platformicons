@@ -41,7 +41,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v2
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v3 # v2
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
@@ -80,9 +80,9 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Check out current commit (${{ github.sha }})
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v2
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v3 # v2
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: 22
           cache: 'yarn'
@@ -94,9 +94,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out current commit (${{ github.sha }})
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v2
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v3 # v2
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: 22
           cache: 'yarn'
