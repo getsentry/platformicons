@@ -54,6 +54,7 @@ export const PLATFORM_TO_ICON = {
   electron: "electron",
   elixir: "elixir",
   fastmcp: "fastmcp",
+  firebase: "firebase",
   firefox: "firefox",
   flutter: "flutter",
   font: "font",
