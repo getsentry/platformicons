@@ -103,6 +103,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-ember": "ember",
   "javascript-express": "express",
   "javascript-fastify": "fastify",
+  "javascript-firebase": "firebase",
   "javascript-gatsby": "gatsby",
   "javascript-gcpfunctions": "gcp-functions",
   "javascript-hapi": "hapi",
