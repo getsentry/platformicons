@@ -310,7 +310,8 @@ const PlatformIcon = ({
   ...otherProps
 }: Props) => {
   const icon = getIcon(platform);
-  const iconPath = (format === "lg" ? iconsLg : icons)[icon] ?? icons["default"];
+  const iconMap = format === "lg" ? iconsLg : icons;
+  const iconPath = iconMap[icon] ?? iconMap["default"];
 
   const languageIcon = getLanguageIcon(platform);
   const languageIconPath = icons[languageIcon] ?? icons["default"];

@@ -12,7 +12,9 @@ export function preloadIcons(format?: "sm" | "lg") {
   const paths: string[] = formats
     .map((f) => {
       const iconMap = f === "lg" ? iconsLg : icons;
-      return Object.values(PLATFORM_TO_ICON).map((icon) => iconMap[icon]);
+      return Object.values(PLATFORM_TO_ICON)
+        .map((icon) => iconMap[icon])
+        .filter(Boolean);
     })
     .flat();
 
