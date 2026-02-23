@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { icons, iconsLg } from './icons.generated';
 
 export const PLATFORM_TO_ICON = {
   amazon: "amazon",
@@ -309,14 +310,10 @@ const PlatformIcon = ({
   ...otherProps
 }: Props) => {
   const icon = getIcon(platform);
-  const iconPathRaw = require(
-    `../${format === "lg" ? "svg_80x80" : "svg"}/${icon}.svg`,
-  );
-  const iconPath = iconPathRaw?.default ?? iconPathRaw;
+  const iconPath = (format === "lg" ? iconsLg : icons)[icon] ?? icons["default"];
 
   const languageIcon = getLanguageIcon(platform);
-  const languageIconPathRaw = require(`../svg/${languageIcon}.svg`);
-  const languageIconPath = languageIconPathRaw?.default ?? languageIconPathRaw;
+  const languageIconPath = icons[languageIcon] ?? icons["default"];
 
   if (withLanguageIcon && languageIcon !== icon && languageIcon !== "default") {
     return (

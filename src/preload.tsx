@@ -1,4 +1,5 @@
 import { PLATFORM_TO_ICON } from "./platformIcon";
+import { icons, iconsLg } from './icons.generated';
 
 /**
  * Insert <link ref="preload" /> elements into the <head> node to preload
@@ -9,11 +10,10 @@ export function preloadIcons(format?: "sm" | "lg") {
   const formats = format ? [format] : ["lg", "sm"];
 
   const paths: string[] = formats
-    .map((f) =>
-      Object.values(PLATFORM_TO_ICON).map((icon) =>
-        require(`../${f === "lg" ? "svg_80x80" : "svg"}/${icon}.svg`)
-      )
-    )
+    .map((f) => {
+      const iconMap = f === "lg" ? iconsLg : icons;
+      return Object.values(PLATFORM_TO_ICON).map((icon) => iconMap[icon]);
+    })
     .flat();
 
   document.querySelector("head")?.append(
