@@ -13,6 +13,7 @@ const fs = require('fs');
 const path = require('path');
 
 const SVG_DIR = path.resolve(__dirname, '..', 'svg');
+const SVG_LG_DIR = path.resolve(__dirname, '..', 'svg_80x80');
 const OUTPUT = path.resolve(__dirname, '..', 'src', 'icons.generated.ts');
 
 // Read all .svg filenames (without extension), sorted
@@ -21,6 +22,18 @@ const icons = fs
   .filter((f) => f.endsWith('.svg'))
   .map((f) => f.replace(/\.svg$/, ''))
   .sort();
+
+// Verify svg_80x80 has matching files
+const lgIcons = new Set(
+  fs.readdirSync(SVG_LG_DIR)
+    .filter((f) => f.endsWith('.svg'))
+    .map((f) => f.replace(/\.svg$/, ''))
+);
+const missing = icons.filter((icon) => !lgIcons.has(icon));
+if (missing.length > 0) {
+  console.error(`ERROR: svg_80x80/ is missing icons present in svg/: ${missing.join(', ')}`);
+  process.exit(1);
+}
 
 const RESERVED_WORDS = new Set([
   'break', 'case', 'catch', 'continue', 'debugger', 'default', 'delete',
@@ -34,7 +47,8 @@ const RESERVED_WORDS = new Set([
 // Sanitize icon name into a valid JS identifier
 function toIdentifier(name) {
   let id = name.replace(/[^a-zA-Z0-9_$]/g, '_');
-  if (RESERVED_WORDS.has(id)) {
+  // Prefix if it starts with a digit or is a reserved word
+  if (/^\d/.test(id) || RESERVED_WORDS.has(id)) {
     id = `_${id}`;
   }
   return id;
