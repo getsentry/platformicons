@@ -1,5 +1,7 @@
-minVersion: 0.23.1
-changelogPolicy: none
-preReleaseCommand: bash scripts/craft-pre-release.sh
+minVersion: 2.21.7
+changelog:
+  policy: auto
+versionBump:
+  policy: auto
 targets:
   - name: npm
