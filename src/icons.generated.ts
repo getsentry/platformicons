@@ -48,6 +48,7 @@ import cloudflare_pages from '../svg/cloudflare-pages.svg';
 import cloudflare_workers from '../svg/cloudflare-workers.svg';
 import cohere from '../svg/cohere.svg';
 import connect from '../svg/connect.svg';
+import convex from '../svg/convex.svg';
 import cordova from '../svg/cordova.svg';
 import cpp from '../svg/cpp.svg';
 import cryengine from '../svg/cryengine.svg';
@@ -267,6 +268,7 @@ import cloudflare_pages_lg from '../svg_80x80/cloudflare-pages.svg';
 import cloudflare_workers_lg from '../svg_80x80/cloudflare-workers.svg';
 import cohere_lg from '../svg_80x80/cohere.svg';
 import connect_lg from '../svg_80x80/connect.svg';
+import convex_lg from '../svg_80x80/convex.svg';
 import cordova_lg from '../svg_80x80/cordova.svg';
 import cpp_lg from '../svg_80x80/cpp.svg';
 import cryengine_lg from '../svg_80x80/cryengine.svg';
@@ -487,6 +489,7 @@ export const icons: Record<string, string> = {
   "cloudflare-workers": cloudflare_workers,
   "cohere": cohere,
   "connect": connect,
+  "convex": convex,
   "cordova": cordova,
   "cpp": cpp,
   "cryengine": cryengine,
@@ -708,6 +711,7 @@ export const iconsLg: Record<string, string> = {
   "cloudflare-workers": cloudflare_workers_lg,
   "cohere": cohere_lg,
   "connect": connect_lg,
+  "convex": convex_lg,
   "cordova": cordova_lg,
   "cpp": cpp_lg,
   "cryengine": cryengine_lg,
