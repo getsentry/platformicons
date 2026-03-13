@@ -68,6 +68,7 @@ import dramatiq from '../svg/dramatiq.svg';
 import echo from '../svg/echo.svg';
 import edge from '../svg/edge.svg';
 import edge_legacy from '../svg/edge-legacy.svg';
+import effect from '../svg/effect.svg';
 import electron from '../svg/electron.svg';
 import elixir from '../svg/elixir.svg';
 import ember from '../svg/ember.svg';
@@ -288,6 +289,7 @@ import dramatiq_lg from '../svg_80x80/dramatiq.svg';
 import echo_lg from '../svg_80x80/echo.svg';
 import edge_lg from '../svg_80x80/edge.svg';
 import edge_legacy_lg from '../svg_80x80/edge-legacy.svg';
+import effect_lg from '../svg_80x80/effect.svg';
 import electron_lg from '../svg_80x80/electron.svg';
 import elixir_lg from '../svg_80x80/elixir.svg';
 import ember_lg from '../svg_80x80/ember.svg';
@@ -509,6 +511,7 @@ export const icons: Record<string, string> = {
   "echo": echo,
   "edge": edge,
   "edge-legacy": edge_legacy,
+  "effect": effect,
   "electron": electron,
   "elixir": elixir,
   "ember": ember,
@@ -731,6 +734,7 @@ export const iconsLg: Record<string, string> = {
   "echo": echo_lg,
   "edge": edge_lg,
   "edge-legacy": edge_legacy_lg,
+  "effect": effect_lg,
   "electron": electron_lg,
   "elixir": elixir_lg,
   "ember": ember_lg,
