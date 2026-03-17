@@ -4,4 +4,5 @@ changelog:
 versionBump:
   policy: auto
 targets:
+  - name: github
   - name: npm
