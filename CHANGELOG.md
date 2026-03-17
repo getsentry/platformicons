@@ -1,5 +1,15 @@
 # Changelog
 
+## 9.2.0
+
+### New Features ✨
+
+- Add Effect.ts by @JPeer264 in [#230](https://github.com/getsentry/platformicons/pull/230)
+
+### Internal Changes 🔧
+
+- Add github release target to craft config by @sergical in [#229](https://github.com/getsentry/platformicons/pull/229)
+
 ## 9.1.0
 
 ### New Features ✨
