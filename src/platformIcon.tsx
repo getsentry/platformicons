@@ -101,6 +101,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-cloudflare-workers": "cloudflare-workers",
   "javascript-connect": "connect",
   "javascript-cordova": "cordova",
+  "javascript-effect": "effect",
   "javascript-electron": "electron",
   "javascript-ember": "ember",
   "javascript-express": "express",
