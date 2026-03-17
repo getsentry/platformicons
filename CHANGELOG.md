@@ -1,5 +1,11 @@
 # Changelog
 
+## 9.2.1
+
+### Bug Fixes 🐛
+
+- (effect) Adapt SVGs for effect by @JPeer264 in [#232](https://github.com/getsentry/platformicons/pull/232)
+
 ## 9.2.0
 
 ### New Features ✨
