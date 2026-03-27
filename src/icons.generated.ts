@@ -71,6 +71,7 @@ import edge_legacy from '../svg/edge-legacy.svg';
 import effect from '../svg/effect.svg';
 import electron from '../svg/electron.svg';
 import elixir from '../svg/elixir.svg';
+import elysia from '../svg/elysia.svg';
 import ember from '../svg/ember.svg';
 import express from '../svg/express.svg';
 import falcon from '../svg/falcon.svg';
@@ -292,6 +293,7 @@ import edge_legacy_lg from '../svg_80x80/edge-legacy.svg';
 import effect_lg from '../svg_80x80/effect.svg';
 import electron_lg from '../svg_80x80/electron.svg';
 import elixir_lg from '../svg_80x80/elixir.svg';
+import elysia_lg from '../svg_80x80/elysia.svg';
 import ember_lg from '../svg_80x80/ember.svg';
 import express_lg from '../svg_80x80/express.svg';
 import falcon_lg from '../svg_80x80/falcon.svg';
@@ -514,6 +516,7 @@ export const icons: Record<string, string> = {
   "effect": effect,
   "electron": electron,
   "elixir": elixir,
+  "elysia": elysia,
   "ember": ember,
   "express": express,
   "falcon": falcon,
@@ -737,6 +740,7 @@ export const iconsLg: Record<string, string> = {
   "effect": effect_lg,
   "electron": electron_lg,
   "elixir": elixir_lg,
+  "elysia": elysia_lg,
   "ember": ember_lg,
   "express": express_lg,
   "falcon": falcon_lg,
