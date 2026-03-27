@@ -1,5 +1,15 @@
 # Changelog
 
+## 9.3.0
+
+### New Features ✨
+
+- (elysia) Add Elysia framework icon by @logaretm in [#234](https://github.com/getsentry/platformicons/pull/234)
+
+### Internal Changes 🔧
+
+- Pin GitHub Actions to full-length commit SHAs by @joshuarli in [#233](https://github.com/getsentry/platformicons/pull/233)
+
 ## 9.2.1
 
 ### Bug Fixes 🐛
