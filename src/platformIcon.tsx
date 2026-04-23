@@ -119,6 +119,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-million": "million",
   "javascript-nestjs": "nestjs",
   "javascript-nextjs": "nextjs",
+  "javascript-nitro": "nitro",
   "javascript-node": "nodejs",
   "javascript-nuxt": "nuxt",
   "javascript-opennext": "opennext",
