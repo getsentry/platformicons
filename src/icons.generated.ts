@@ -144,6 +144,7 @@ import nextjs from '../svg/nextjs.svg';
 import nintendo from '../svg/nintendo.svg';
 import nintendo_switch from '../svg/nintendo-switch.svg';
 import nintendo_switch_2 from '../svg/nintendo-switch-2.svg';
+import nitro from '../svg/nitro.svg';
 import nodejs from '../svg/nodejs.svg';
 import nuxt from '../svg/nuxt.svg';
 import nvidia from '../svg/nvidia.svg';
@@ -366,6 +367,7 @@ import nextjs_lg from '../svg_80x80/nextjs.svg';
 import nintendo_lg from '../svg_80x80/nintendo.svg';
 import nintendo_switch_lg from '../svg_80x80/nintendo-switch.svg';
 import nintendo_switch_2_lg from '../svg_80x80/nintendo-switch-2.svg';
+import nitro_lg from '../svg_80x80/nitro.svg';
 import nodejs_lg from '../svg_80x80/nodejs.svg';
 import nuxt_lg from '../svg_80x80/nuxt.svg';
 import nvidia_lg from '../svg_80x80/nvidia.svg';
@@ -589,6 +591,7 @@ export const icons: Record<string, string> = {
   "nintendo": nintendo,
   "nintendo-switch": nintendo_switch,
   "nintendo-switch-2": nintendo_switch_2,
+  "nitro": nitro,
   "nodejs": nodejs,
   "nuxt": nuxt,
   "nvidia": nvidia,
@@ -813,6 +816,7 @@ export const iconsLg: Record<string, string> = {
   "nintendo": nintendo_lg,
   "nintendo-switch": nintendo_switch_lg,
   "nintendo-switch-2": nintendo_switch_2_lg,
+  "nitro": nitro_lg,
   "nodejs": nodejs_lg,
   "nuxt": nuxt_lg,
   "nvidia": nvidia_lg,
