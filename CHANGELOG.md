@@ -1,5 +1,15 @@
 # Changelog
 
+## 9.4.0
+
+### New Features ✨
+
+- Add nitro framework icon by @logaretm in [#236](https://github.com/getsentry/platformicons/pull/236)
+
+### Internal Changes 🔧
+
+- Update fastapi logo by @shellmayr in [#235](https://github.com/getsentry/platformicons/pull/235)
+
 ## 9.3.0
 
 ### New Features ✨
