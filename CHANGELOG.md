@@ -1,5 +1,11 @@
 # Changelog
 
+## 9.5.0
+
+### New Features ✨
+
+- Add google platform alias by @priscilawebdev in [#237](https://github.com/getsentry/platformicons/pull/237)
+
 ## 9.4.0
 
 ### New Features ✨
