@@ -72,6 +72,7 @@ export const PLATFORM_TO_ICON = {
   "go-martini": "martini",
   "go-negroni": "go",
   godot: "godot",
+  google: "google",
   grok: "grok",
   groq: "groq",
   huggingface: "huggingface",
