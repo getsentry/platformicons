@@ -73,6 +73,7 @@ import electron from '../svg/electron.svg';
 import elixir from '../svg/elixir.svg';
 import elysia from '../svg/elysia.svg';
 import ember from '../svg/ember.svg';
+import expo from '../svg/expo.svg';
 import express from '../svg/express.svg';
 import falcon from '../svg/falcon.svg';
 import fastapi from '../svg/fastapi.svg';
@@ -296,6 +297,7 @@ import electron_lg from '../svg_80x80/electron.svg';
 import elixir_lg from '../svg_80x80/elixir.svg';
 import elysia_lg from '../svg_80x80/elysia.svg';
 import ember_lg from '../svg_80x80/ember.svg';
+import expo_lg from '../svg_80x80/expo.svg';
 import express_lg from '../svg_80x80/express.svg';
 import falcon_lg from '../svg_80x80/falcon.svg';
 import fastapi_lg from '../svg_80x80/fastapi.svg';
@@ -520,6 +522,7 @@ export const icons: Record<string, string> = {
   "elixir": elixir,
   "elysia": elysia,
   "ember": ember,
+  "expo": expo,
   "express": express,
   "falcon": falcon,
   "fastapi": fastapi,
@@ -745,6 +748,7 @@ export const iconsLg: Record<string, string> = {
   "elixir": elixir_lg,
   "elysia": elysia_lg,
   "ember": ember_lg,
+  "expo": expo_lg,
   "express": express_lg,
   "falcon": falcon_lg,
   "fastapi": fastapi_lg,
