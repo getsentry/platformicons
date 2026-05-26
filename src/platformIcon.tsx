@@ -301,6 +301,8 @@ type Props = React.HTMLAttributes<HTMLDivElement | HTMLImageElement> & {
   radius?: number | null;
   withLanguageIcon?: boolean;
   languageIconStyles?: React.CSSProperties;
+  /** Accessible label for the icon. Defaults to the platform name. Pass an empty string to mark the icon as decorative. */
+  alt?: string;
 };
 
 const PlatformIcon = ({
@@ -311,6 +313,7 @@ const PlatformIcon = ({
   withLanguageIcon,
   languageIconStyles = {},
   style = {},
+  alt = platform,
   ...otherProps
 }: Props) => {
   const icon = getIcon(platform);
@@ -322,15 +325,22 @@ const PlatformIcon = ({
 
   if (withLanguageIcon && languageIcon !== icon && languageIcon !== "default") {
     return (
-      <div {...otherProps} style={{ position: "relative", ...style }}>
+      <div
+        role="img"
+        aria-label={alt}
+        {...otherProps}
+        style={{ position: "relative", ...style }}
+      >
         <img
           src={iconPath}
           width={size}
           height={size}
+          alt=""
           style={{ borderRadius: `${radius}px` }}
         />
         <img
           src={languageIconPath}
+          alt=""
           style={{
             position: "absolute",
             bottom: "-1px",
@@ -350,6 +360,7 @@ const PlatformIcon = ({
       src={iconPath}
       width={size}
       height={size}
+      alt={alt}
       {...otherProps}
       style={{ borderRadius: `${radius}px`, ...style }}
     />
