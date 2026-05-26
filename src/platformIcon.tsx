@@ -326,9 +326,9 @@ const PlatformIcon = ({
   if (withLanguageIcon && languageIcon !== icon && languageIcon !== "default") {
     return (
       <div
-        role="img"
-        aria-label={alt}
         {...otherProps}
+        role={alt === "" ? "none" : "img"}
+        aria-label={alt !== "" ? alt : undefined}
         style={{ position: "relative", ...style }}
       >
         <img
