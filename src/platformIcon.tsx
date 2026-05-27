@@ -327,7 +327,7 @@ const PlatformIcon = ({
     return (
       <div
         {...otherProps}
-        role={alt === "" ? "none" : "img"}
+        role={alt === "" ? undefined : "img"}
         aria-label={alt === "" ? undefined : alt}
         style={{ position: "relative", ...style }}
       >
