@@ -1,5 +1,15 @@
 # Changelog
 
+## 9.6.0
+
+### New Features ✨
+
+- Add Expo platform icon by @MattSentry in [#238](https://github.com/getsentry/platformicons/pull/238)
+
+### Bug Fixes 🐛
+
+- (accessibility) Add alt text to PlatformIcon by @sentry-junior in [#239](https://github.com/getsentry/platformicons/pull/239)
+
 ## 9.5.0
 
 ### New Features ✨
