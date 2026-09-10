@@ -99,6 +99,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-backbone": "backbone",
   "javascript-browser": "javascript",
   "javascript-capacitor": "capacitor",
+  "javascript-cloudflare": "cloudflare",
   "javascript-cloudflare-pages": "cloudflare-pages",
   "javascript-cloudflare-workers": "cloudflare-workers",
   "javascript-connect": "connect",
