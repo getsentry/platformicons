@@ -73,6 +73,7 @@ import electron from '../svg/electron.svg';
 import elixir from '../svg/elixir.svg';
 import elysia from '../svg/elysia.svg';
 import ember from '../svg/ember.svg';
+import eve from '../svg/eve.svg';
 import expo from '../svg/expo.svg';
 import express from '../svg/express.svg';
 import falcon from '../svg/falcon.svg';
@@ -84,6 +85,7 @@ import fiber from '../svg/fiber.svg';
 import firebase from '../svg/firebase.svg';
 import firefox from '../svg/firefox.svg';
 import flask from '../svg/flask.svg';
+import flue from '../svg/flue.svg';
 import flutter from '../svg/flutter.svg';
 import font from '../svg/font.svg';
 import fsharp from '../svg/fsharp.svg';
@@ -297,6 +299,7 @@ import electron_lg from '../svg_80x80/electron.svg';
 import elixir_lg from '../svg_80x80/elixir.svg';
 import elysia_lg from '../svg_80x80/elysia.svg';
 import ember_lg from '../svg_80x80/ember.svg';
+import eve_lg from '../svg_80x80/eve.svg';
 import expo_lg from '../svg_80x80/expo.svg';
 import express_lg from '../svg_80x80/express.svg';
 import falcon_lg from '../svg_80x80/falcon.svg';
@@ -308,6 +311,7 @@ import fiber_lg from '../svg_80x80/fiber.svg';
 import firebase_lg from '../svg_80x80/firebase.svg';
 import firefox_lg from '../svg_80x80/firefox.svg';
 import flask_lg from '../svg_80x80/flask.svg';
+import flue_lg from '../svg_80x80/flue.svg';
 import flutter_lg from '../svg_80x80/flutter.svg';
 import font_lg from '../svg_80x80/font.svg';
 import fsharp_lg from '../svg_80x80/fsharp.svg';
@@ -522,6 +526,7 @@ export const icons: Record<string, string> = {
   "elixir": elixir,
   "elysia": elysia,
   "ember": ember,
+  "eve": eve,
   "expo": expo,
   "express": express,
   "falcon": falcon,
@@ -533,6 +538,7 @@ export const icons: Record<string, string> = {
   "firebase": firebase,
   "firefox": firefox,
   "flask": flask,
+  "flue": flue,
   "flutter": flutter,
   "font": font,
   "fsharp": fsharp,
@@ -748,6 +754,7 @@ export const iconsLg: Record<string, string> = {
   "elixir": elixir_lg,
   "elysia": elysia_lg,
   "ember": ember_lg,
+  "eve": eve_lg,
   "expo": expo_lg,
   "express": express_lg,
   "falcon": falcon_lg,
@@ -759,6 +766,7 @@ export const iconsLg: Record<string, string> = {
   "firebase": firebase_lg,
   "firefox": firefox_lg,
   "flask": flask_lg,
+  "flue": flue_lg,
   "flutter": flutter_lg,
   "font": font_lg,
   "fsharp": fsharp_lg,
