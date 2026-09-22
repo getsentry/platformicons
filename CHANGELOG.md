@@ -1,5 +1,12 @@
 # Changelog
 
+## 9.7.0
+
+### New Features ✨
+
+- Add Flue and Eve platform icons by @obostjancic in [#241](https://github.com/getsentry/platformicons/pull/241)
+- Map javascript-cloudflare to the Cloudflare icon by @JPeer264 in [#240](https://github.com/getsentry/platformicons/pull/240)
+
 ## 9.6.0
 
 ### New Features ✨
