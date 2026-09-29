@@ -1,5 +1,11 @@
 # Changelog
 
+## 9.8.0
+
+### New Features ✨
+
+- Add TypeSafe AI icon by @sentry-junior in [#242](https://github.com/getsentry/platformicons/pull/242)
+
 ## 9.7.0
 
 ### New Features ✨
