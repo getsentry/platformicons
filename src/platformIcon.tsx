@@ -252,6 +252,7 @@ export const PLATFORM_TO_ICON = {
   sqlserver: "sqlserver",
   swift: "swift",
   tauri: "tauri",
+  "typesafe-ai": "typesafe-ai",
   ubuntu: "ubuntu",
   unity: "unity",
   unleash: "unleash",

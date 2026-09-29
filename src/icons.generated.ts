@@ -212,6 +212,7 @@ import tracing from '../svg/tracing.svg';
 import trailblazer from '../svg/trailblazer.svg';
 import tryton from '../svg/tryton.svg';
 import typer from '../svg/typer.svg';
+import typesafe_ai from '../svg/typesafe-ai.svg';
 import ubuntu from '../svg/ubuntu.svg';
 import unity from '../svg/unity.svg';
 import unleash from '../svg/unleash.svg';
@@ -438,6 +439,7 @@ import tracing_lg from '../svg_80x80/tracing.svg';
 import trailblazer_lg from '../svg_80x80/trailblazer.svg';
 import tryton_lg from '../svg_80x80/tryton.svg';
 import typer_lg from '../svg_80x80/typer.svg';
+import typesafe_ai_lg from '../svg_80x80/typesafe-ai.svg';
 import ubuntu_lg from '../svg_80x80/ubuntu.svg';
 import unity_lg from '../svg_80x80/unity.svg';
 import unleash_lg from '../svg_80x80/unleash.svg';
@@ -665,6 +667,7 @@ export const icons: Record<string, string> = {
   "trailblazer": trailblazer,
   "tryton": tryton,
   "typer": typer,
+  "typesafe-ai": typesafe_ai,
   "ubuntu": ubuntu,
   "unity": unity,
   "unleash": unleash,
@@ -893,6 +896,7 @@ export const iconsLg: Record<string, string> = {
   "trailblazer": trailblazer_lg,
   "tryton": tryton_lg,
   "typer": typer_lg,
+  "typesafe-ai": typesafe_ai_lg,
   "ubuntu": ubuntu_lg,
   "unity": unity_lg,
   "unleash": unleash_lg,
