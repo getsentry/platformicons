@@ -160,6 +160,7 @@ import perforce from '../svg/perforce.svg';
 import perl from '../svg/perl.svg';
 import perplexity from '../svg/perplexity.svg';
 import php from '../svg/php.svg';
+import pi from '../svg/pi.svg';
 import playstation from '../svg/playstation.svg';
 import postgresql from '../svg/postgresql.svg';
 import powershell from '../svg/powershell.svg';
@@ -387,6 +388,7 @@ import perforce_lg from '../svg_80x80/perforce.svg';
 import perl_lg from '../svg_80x80/perl.svg';
 import perplexity_lg from '../svg_80x80/perplexity.svg';
 import php_lg from '../svg_80x80/php.svg';
+import pi_lg from '../svg_80x80/pi.svg';
 import playstation_lg from '../svg_80x80/playstation.svg';
 import postgresql_lg from '../svg_80x80/postgresql.svg';
 import powershell_lg from '../svg_80x80/powershell.svg';
@@ -615,6 +617,7 @@ export const icons: Record<string, string> = {
   "perl": perl,
   "perplexity": perplexity,
   "php": php,
+  "pi": pi,
   "playstation": playstation,
   "postgresql": postgresql,
   "powershell": powershell,
@@ -844,6 +847,7 @@ export const iconsLg: Record<string, string> = {
   "perl": perl_lg,
   "perplexity": perplexity_lg,
   "php": php_lg,
+  "pi": pi_lg,
   "playstation": playstation_lg,
   "postgresql": postgresql_lg,
   "powershell": powershell_lg,
