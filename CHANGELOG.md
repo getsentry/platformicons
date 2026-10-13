@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.8.1
+
+- Added: Icons 'pi' by @Jesse-Box in [#244](https://github.com/getsentry/platformicons/pull/244)
+
 ## 9.8.0
 
 ### New Features ✨
