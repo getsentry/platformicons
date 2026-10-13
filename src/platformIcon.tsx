@@ -171,6 +171,7 @@ export const PLATFORM_TO_ICON = {
   perl: "perl",
   perplexity: "perplexity",
   php: "php",
+  pi: "pi",
   playstation: "playstation",
   powershell: "powershell",
   "php-laravel": "laravel",
