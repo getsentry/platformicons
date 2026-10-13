@@ -132,6 +132,7 @@ export const PLATFORM_TO_ICON = {
   "javascript-node": "nodejs",
   "javascript-nuxt": "nuxt",
   "javascript-opennext": "opennext",
+  "javascript-pi-durable": "pi",
   "javascript-qwik": "qwik",
   "javascript-react": "react",
   "javascript-react-router": "react-router",
