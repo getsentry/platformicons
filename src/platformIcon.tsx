@@ -16,6 +16,7 @@ export const PLATFORM_TO_ICON = {
   "apple-watch": "apple-watch",
   arm: "arm",
   bazzite: "bazzite",
+  brave: "brave",
   bun: "bun",
   capacitor: "capacitor",
   chrome: "chrome",
