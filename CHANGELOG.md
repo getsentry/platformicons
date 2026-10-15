@@ -1,5 +1,12 @@
 # Changelog
 
+## 9.9.0
+
+### New Features ✨
+
+- Add Brave browser icon by @sentry-junior in [#246](https://github.com/getsentry/platformicons/pull/246)
+- Map javascript-pi-durable to the Pi icon by @sentry-junior in [#245](https://github.com/getsentry/platformicons/pull/245)
+
 ## 9.8.1
 
 - Added: Icons 'pi' by @Jesse-Box in [#244](https://github.com/getsentry/platformicons/pull/244)
