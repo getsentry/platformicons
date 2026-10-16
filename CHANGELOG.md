@@ -1,5 +1,12 @@
 # Changelog
 
+## 9.10.0
+
+### New Features ✨
+
+- Use Anthropic press kit Claude icon by @sentry-junior in [#248](https://github.com/getsentry/platformicons/pull/248)
+- Use white-on-orange Claude icon by @sentry-junior in [#247](https://github.com/getsentry/platformicons/pull/247)
+
 ## 9.9.0
 
 ### New Features ✨
