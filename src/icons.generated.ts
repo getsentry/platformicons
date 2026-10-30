@@ -36,6 +36,7 @@ import blazor from '../svg/blazor.svg';
 import bootstrap from '../svg/bootstrap.svg';
 import bottle from '../svg/bottle.svg';
 import brave from '../svg/brave.svg';
+import bref from '../svg/bref.svg';
 import bun from '../svg/bun.svg';
 import capacitor from '../svg/capacitor.svg';
 import celery from '../svg/celery.svg';
@@ -265,6 +266,7 @@ import blazor_lg from '../svg_80x80/blazor.svg';
 import bootstrap_lg from '../svg_80x80/bootstrap.svg';
 import bottle_lg from '../svg_80x80/bottle.svg';
 import brave_lg from '../svg_80x80/brave.svg';
+import bref_lg from '../svg_80x80/bref.svg';
 import bun_lg from '../svg_80x80/bun.svg';
 import capacitor_lg from '../svg_80x80/capacitor.svg';
 import celery_lg from '../svg_80x80/celery.svg';
@@ -495,6 +497,7 @@ export const icons: Record<string, string> = {
   "bootstrap": bootstrap,
   "bottle": bottle,
   "brave": brave,
+  "bref": bref,
   "bun": bun,
   "capacitor": capacitor,
   "celery": celery,
@@ -726,6 +729,7 @@ export const iconsLg: Record<string, string> = {
   "bootstrap": bootstrap_lg,
   "bottle": bottle_lg,
   "brave": brave_lg,
+  "bref": bref_lg,
   "bun": bun_lg,
   "capacitor": capacitor_lg,
   "celery": celery_lg,
