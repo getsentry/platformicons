@@ -176,6 +176,7 @@ export const PLATFORM_TO_ICON = {
   pi: "pi",
   playstation: "playstation",
   powershell: "powershell",
+  "php-bref": "bref",
   "php-laravel": "laravel",
   "php-livewire": "livewire",
   "php-magento": "magento",
