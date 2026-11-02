@@ -1,5 +1,15 @@
 # Changelog
 
+## 9.10.1
+
+### New Features ✨
+
+- Add Bref icon by @mnapoli in [#249](https://github.com/getsentry/platformicons/pull/249)
+
+### Internal Changes 🔧
+
+- (node) Bump Node to 22.23.4 by @geoffg-sentry with @sentry-junior in [#250](https://github.com/getsentry/platformicons/pull/250)
+
 ## 9.10.0
 
 ### New Features ✨
