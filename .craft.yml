@@ -1,4 +1,4 @@
-minVersion: 2.21.7
+minVersion: 3.9.0
 changelog:
   policy: auto
 versionBump:
